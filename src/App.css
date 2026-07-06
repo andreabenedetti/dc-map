@@ -1,0 +1,30 @@
+@import url("https://fonts.cdnfonts.com/css/minion-pro");
+@import "tailwindcss";
+
+@theme {
+    --font-display: "Minion Pro";
+}
+
+@font-face {
+    font-family: "Lithops";
+    src: url("assets/fonts/Lithops-Regular.woff2");
+}
+
+#root {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#map-container {
+    height: 700px;
+    width: 100%;
+    /* temporarily set the background color so we can tell where the map container is positioned */
+    background-color: lightgrey;
+}
+
+.intro-title {
+    font-family: "Lithops", serif;
+}

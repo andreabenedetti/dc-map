@@ -1,0 +1,39 @@
+{
+  "name": "use-mapbox-gl-js-with-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prebuild": "node scripts/generateMaps.js",
+    "generate:maps": "node scripts/generateMaps.js"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.6.0",
+    "@headlessui/react": "^2.2.10",
+    "@phosphor-icons/react": "^2.1.10",
+    "@turf/bbox": "^7.3.5",
+    "@turf/buffer": "^7.3.5",
+    "@turf/centroid": "^7.3.5",
+    "@turf/simplify": "^7.3.5",
+    "dotenv": "^17.4.2",
+    "mapbox-gl": "^3.22.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-medium-image-zoom": "^5.4.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "vite": "^8.0.10"
+  }
+}

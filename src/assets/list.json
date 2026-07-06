@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Progetto Data Center MIL03, Settimo Milanese (MI)",
+    "proposer": "MICROSOFT 4825 ITALY S.R.L.",
+    "procedure": "Verifica di Ottemperanza",
+    "label": "MIL03 - Settimo Milanese (MI)"
+  },
+  {
+    "name": "Data center Retelit Corsico",
+    "proposer": "Retelit",
+    "procedure": "-",
+    "label": "Retelit - Corsico (MI)"
+  },
+  {
+    "name": "Nuovo Data Center da realizzarsi in Frazione Santa Corinna nel Comune di Noviglio (Mi)",
+    "proposer": "Noviglio datacenters Mxp I S.r.l.",
+    "procedure": "Verifica di Ottemperanza",
+    "label": "MXP 1 - Noviglio (MI)"
+  },
+  {
+    "name": "Data Center ML10 e ML11 nel comune di Settimo Milanese (MI)",
+    "proposer": "Equinix Hyperscale 2 (ML10) Srl",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "ML10, ML11 - Settimo Milanese (MI)"
+  },
+  {
+    "name": "Progetto di ampliamento del Data Center Supernap sito in via Marche 8 a Siziano di proprietà di Supernap Italia",
+    "proposer": "Supernap Italia spa",
+    "procedure": "Verifica di Ottemperanza",
+    "label": "Supernap (ampliamento) - Siziano (PV)"
+  },
+  {
+    "name": "Progetto D4 Data Center MIL1 - Masterplan campus",
+    "proposer": "DATA 4 MILAN S.P.A.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "D4 MIL1"
+  },
+  {
+    "name": "Progetto Data Center ML9 a Settimo Milanese (MI)",
+    "proposer": "Equinix Hyperscale 2 (ML9) Srl",
+    "procedure": "Verifica di Ottemperanza",
+    "label": "ML9 - Settimo Milanese (MI)"
+  },
+  {
+    "name": "Data Center ML5 e ML6 nel comune di Settimo Milanese (MI)",
+    "proposer": "Equinix Italia S.r.l.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "ML5, ML6 - Settimo Milanese (MI)"
+  },
+  {
+    "name": "Data Center Stack Campus Siziano (PV)",
+    "proposer": "Infrastructure Italia Land 2 S.r.l.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Stack Campus - Siziano (PV)"
+  },
+  {
+    "name": "Data Center Vellezzo Bellini",
+    "proposer": "INFRASTRUCTURE ITALIA LAND 4 S.r.l.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Vellezzo Bellini (PV)"
+  },
+  {
+    "name": "Realizzazione di un nuovo Data Center denominato \"MIL05\" ubicato nel comune di Vignate (MI)",
+    "proposer": "INFRASTRUCTURE ITALIA LAND 5 S.R.L.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "MIL05 - Vignate (MI)"
+  },
+  {
+    "name": "Progettazione nuovo Data Center Liscate",
+    "proposer": "INFRASTRUCTURE ITALIA LAND 6 S.r.l.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Liscate (MI)"
+  },
+  {
+    "name": "Nuovo Data Center denominato MIL09 sito in comune di Melzo (MI)",
+    "proposer": "INFRASTRUCTURE ITALIA LAND 9 S.R.L.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "MIL09 - Melzo (MI)"
+  },
+  {
+    "name": "Progetto per un nuovo data center nel comune di Sedriano (MI)",
+    "proposer": "MINERVA ITALY DC SPV S.R.L.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Sedriano (MI)"
+  },
+  {
+    "name": "Ampliamento data center Noovle SpA",
+    "proposer": "Noovle SpA",
+    "procedure": "Verifica di Assoggettabilità a VIA",
+    "label": ""
+  },
+  {
+    "name": "DATA CENTER LIN 10 TREVIGLIO sito in Via della Costa, 2, Treviglio (BG)",
+    "proposer": "SAVILLS I.M. SGR S.P.A.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "LIN 10 - Treviglio (BG)"
+  },
+  {
+    "name": "Completamento del data center MXP1 e del sistema di alimentazione elettrica di emergenza - Melegnano (MI)",
+    "proposer": "VDC MXP 11 S.r.l.",
+    "procedure": "Verifica di Ottemperanza",
+    "label": "MXP1 - Melegnano (MI)"
+  },
+  {
+    "name": "Istanza per l'avvio del procedimento di Verifica di assoggettabilità a VIA ai sensi dell'art.19 del D.Lgs.152/2006 relativa al progetto Nuovo Data Center a Settimo Milanese (MI)",
+    "proposer": "Equinix Hyperscale 2 (ML7) Srl",
+    "procedure": "Verifica di Ottemperanza",
+    "label": "Settimo Milanese (MI)"
+  },
+  {
+    "name": "Progetto di installazione di n.22 generatori con energia termica complessiva pari a 143 MW, presso il data center MXP2 Vantage Data Centers Europe - sito di Settimo Milanese (MI)",
+    "proposer": "VDC MXP 21 S.r.l.",
+    "procedure": "Verifica di Ottemperanza",
+    "label": "MXP2 (Generatori) - Settimo Milanese (MI)"
+  },
+  {
+    "name": "Progetto di installazione di n.22 generatori di emergenza presso il data center MXP1 Vantage Data Centers Europe - sito di Melegnano (MI)",
+    "proposer": "VDC MXP 11 S.r.l.",
+    "procedure": "Verifica di Assoggettabilità a VIA",
+    "label": "MXP1 (Generatori) - Melegnano (MI)"
+  },
+  {
+    "name": "MXP MAGENTA - Campus ad uso Data Center sito nel comune di Magenta (MI)",
+    "proposer": "NAMIRA S.G.R.P.A.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "MXP - Magenta (MI)"
+  },
+  {
+    "name": "Realizzazione di un nuovo Data Center ubicato nel comune di Lacchiarella - Installazione di generatori di emergenza di potenza termica superiore a 150 MWth (Pt=1.010 MW)",
+    "proposer": "APTO ITALIA S.R.L.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Generatori - Lacchiarella (MI)"
+  },
+  {
+    "name": "Ampliamento del Nuovo Data Center di via XXV Aprile nella frazione di Santa Corinna a Noviglio (MI)",
+    "proposer": "Noviglio datacenters Mxp I S.r.l.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Noviglio (MI)"
+  },
+  {
+    "name": "Progetto Nuovo Data Center a Settimo Milanese (MI) per la fornitura di servizi clouds come server, risorse di archiviazione, database, rete, software, analisi e intelligence.",
+    "proposer": "Equinix Hyperscale 2 (ML7) Srl",
+    "procedure": "Verifica di Assoggettabilità a VIA",
+    "label": "ML7 - Settimo Milanese (MI)"
+  },
+  {
+    "name": "Data Center ML7-ML8 a Settimo Milanese (MI)",
+    "proposer": "EQUINIX HYPERSCALE 2 (ML7) S.R.L.",
+    "procedure": "Valutazione preliminare",
+    "label": "ML7, ML8 - Settimo Milanese (MI)"
+  },
+  {
+    "name": "Ampliamento Data Center Stack EMEA MIL01, via Marche 8 Siziano (PV)",
+    "proposer": "Stack EMEA Italy S.r.l.",
+    "procedure": "Valutazione preliminare",
+    "label": "MIL01 (ampliamento) - Siziano (PV)"
+  },
+  {
+    "name": "Realizzazione di un campus tecnologico composto da tre edifici data center indipendenti e installazione di n.133 generatori per una potenza termica complessiva di circa 1.000 MWt da realizzare nel Comune di Vimercate (MB)",
+    "proposer": "KRYALOS SGR S.P.A.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Generatori - Vimercate (MB)"
+  },
+  {
+    "name": "Progetto Datacenter edificio A e edificio B Rho/Pero (MI)",
+    "proposer": "AMAZON DATA SERVICES ITALY S.R.L.",
+    "procedure": "Verifica di Ottemperanza",
+    "label": "Edificio A, Edificio B - Rho/Pero (MI)"
+  },
+  {
+    "name": "Regione AWS Europe (Milan) - Espansione - Datacenter Edificio A nel comune di Zibido San Giacomo (MI).",
+    "proposer": "AMAZON DATA SERVICES ITALY S.R.L.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Edificio A - Zibido San Giacomo (MI)"
+  },
+  {
+    "name": "DATACENTER EDIFICIO A e EDIFICIO B RHO/PERO (MILANO) - inserimento pozzi e edificio trattamento acque.",
+    "proposer": "AMAZON DATA SERVICES ITALY S.R.L.",
+    "procedure": "Valutazione preliminare",
+    "label": "Edificio A, Edificio B (Pozzi e trattamento acque) - Rho/Pero (MI)"
+  },
+  {
+    "name": "CAMPUS DATA4 (MIL02) Vittuone (MI)",
+    "proposer": "DATA 4 LOMBARDIA S.P.A.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Campus DATA4 (MIL02) - Vittuone (MI)"
+  },
+  {
+    "name": "Datacenter MIL04, Pescheria Borromeo (MI)",
+    "proposer": "MICROSOFT 4825 ITALY S.R.L.",
+    "procedure": "Verifica di Ottemperanza",
+    "label": "MIL04 - Peschiera Borromeo (MI)"
+  },
+  {
+    "name": "Datacenter Italy Caleppio di Settala (MI)",
+    "proposer": "Microsoft Srl",
+    "procedure": "Verifica di Ottemperanza"
+  },
+  {
+    "name": "Progetto per la realizzazione di un Datacenter in Comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 50 mwt",
+    "proposer": "MICROSOFT 4825 ITALY S.R.L.",
+    "procedure": "Verifica di Ottemperanza",
+    "label": "Gruppi elettrogeni di emergenza - Bornasco (MI)"
+  },
+  {
+    "name": "Installazione di gruppi elettrogeni di emergenza di potenza complessiva pari a 132 MWt - datacenter in Comune di Segrate nell'area ex-CISE",
+    "proposer": "Cyrusoneitaly I S.r.l.",
+    "procedure": "Verifica di Ottemperanza",
+    "label": "Gruppi elettrogeni di emergenza - Segrate (MI)"
+  },
+  {
+    "name": "Progetto Datacenter A1 - WTR, Settimo Milanese (MI)",
+    "proposer": "MICROSOFT 4825 ITALY S.R.L.",
+    "procedure": "Verifica di Assoggettabilità a VIA",
+    "label": "A1 - Settimo Milanese (MI)"
+  },
+  {
+    "name": "Regione AWS Europe (Milan) - Espansione - Datacenter Edificio A nel comune di Zibido San Giacomo (MI).",
+    "proposer": "AMAZON DATA SERVICES ITALY S.R.L.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Edificio A (espansione) - Zibido San Giacomo (MI)"
+  },
+  {
+    "name": "Progetto per la realizzazione di un Datacenter in comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 150 MWt.",
+    "proposer": "MICROSOFT 4825 ITALY S.R.L.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Gruppi elettrogeni di emergenza - Bornasco (MI)"
+  },
+  {
+    "name": "Ampliamento del datacenter Noovle di Rozzano (MI) - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 150 MWt",
+    "proposer": "Noovle Società Benefit S.p.A.",
+    "procedure": "Valutazione Impatto Ambientale",
+    "label": "Gruppi elettrogeni di emergenza - Rozzano (MI)"
+  },
+  {
+    "name": "Progetto di ampliamento del polo tecnologico Aruba Spa costituito da Datacenter per la fornitura di servizi clouds come server e relativa installazione dei gruppi elettrogeni di emergenza, alimentati a gasolio, da realizzarsi in Comune di Ponte San Pietro (BG) in via San Clemente n.53",
+    "proposer": "Aruba S.p.A.",
+    "procedure": "Verifica di Assoggettabilità a VIA",
+    "label": "San Pietro (BG)"
+  },
+  {
+    "name": "Progetto Nuovo Data Center a Settimo Milanese (MI) per la fornitura di servizi clouds come server, risorse di archiviazione, database, rete, software, analisi e intelligence",
+    "proposer": "Equinix Hyperscale 2 (ML7) Srl",
+    "procedure": "Verifica di Assoggettabilità a VIA",
+    "label": "Settimo Milanese (MI)"
+  }
+]

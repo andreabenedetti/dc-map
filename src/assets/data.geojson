@@ -1,0 +1,913 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mappatura Data Center Milano",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Data center Retelit Corsico",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.0885959, 45.4355717, 0.0],
+            [9.0895753, 45.4346644, 0.0],
+            [9.0907118, 45.4351438, 0.0],
+            [9.0897265, 45.4363464, 0.0],
+            [9.0883863, 45.4358216, 0.0],
+            [9.0885959, 45.4355717, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progetto Data Center MIL03, Settimo Milanese (MI)",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.0404562, 45.4732609, 0.0],
+            [9.0406273, 45.4728597, 0.0],
+            [9.0420607, 45.4735972, 0.0],
+            [9.0432162, 45.4724152, 0.0],
+            [9.0444486, 45.4729187, 0.0],
+            [9.045394, 45.473216, 0.0],
+            [9.0431873, 45.4747954, 0.0],
+            [9.0404562, 45.4732609, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Data Center ML10 e ML11 nel comune di Settimo Milanese (MI)",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.0324015, 45.4768438, 0.0],
+            [9.0340911, 45.4736995, 0.0],
+            [9.0393455, 45.4750657, 0.0],
+            [9.0378265, 45.4777318, 0.0],
+            [9.0380127, 45.4774262, 0.0],
+            [9.0399393, 45.4779394, 0.0],
+            [9.0395414, 45.4788209, 0.0],
+            [9.0377179, 45.4784325, 0.0],
+            [9.0324015, 45.4768438, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Nuovo Data Center da realizzarsi in Frazione Santa Corinna nel Comune di Noviglio (Mi)",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.0829602, 45.3361607, 0.0],
+            [9.0804386, 45.3352679, 0.0],
+            [9.0828693, 45.3347453, 0.0],
+            [9.0841727, 45.3347208, 0.0],
+            [9.0875907, 45.3353119, 0.0],
+            [9.0891695, 45.3357256, 0.0],
+            [9.0914231, 45.3367572, 0.0],
+            [9.0927237, 45.3374507, 0.0],
+            [9.0919086, 45.3385388, 0.0],
+            [9.0924813, 45.3388119, 0.0],
+            [9.0918302, 45.3392833, 0.0],
+            [9.0911695, 45.3392219, 0.0],
+            [9.0902268, 45.3389419, 0.0],
+            [9.0872818, 45.337835, 0.0],
+            [9.0829602, 45.3361607, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progetto Data Center ML9 a Settimo Milanese (MI)",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.034542, 45.4770951, 0.0],
+            [9.0327869, 45.4766396, 0.0],
+            [9.0335937, 45.4752255, 0.0],
+            [9.0353385, 45.4757395, 0.0],
+            [9.034542, 45.4770951, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Data Center ML5 e ML6 nel comune di Settimo Milanese (MI)",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.0358073, 45.4756347, 0.0],
+            [9.0365383, 45.4743279, 0.0],
+            [9.0394127, 45.475095, 0.0],
+            [9.0386028, 45.476311, 0.0],
+            [9.0358073, 45.4756347, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progetto D4 Data Center MIL1 - Masterplan campus",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.0396101, 45.4748449, 0.0],
+            [9.0339455, 45.4732566, 0.0],
+            [9.0356831, 45.4698432, 0.0],
+            [9.0412555, 45.4717445, 0.0],
+            [9.0396101, 45.4748449, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Data Center Vellezzo Bellini",
+        "family": "Roboto, Arial\">",
+        "size": null,
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.1227061, 45.2766312, 0.0],
+            [9.1234184, 45.2750186, 0.0],
+            [9.1237372, 45.2750806, 0.0],
+            [9.1241721, 45.2736773, 0.0],
+            [9.1263978, 45.273985, 0.0],
+            [9.1263317, 45.2747072, 0.0],
+            [9.1276121, 45.2749124, 0.0],
+            [9.1275122, 45.2756822, 0.0],
+            [9.1271848, 45.2761337, 0.0],
+            [9.1274521, 45.2768785, 0.0],
+            [9.1271496, 45.2776901, 0.0],
+            [9.1249311, 45.2773504, 0.0],
+            [9.1227061, 45.2766312, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Realizzazione di un nuovo Data Center denominato \"MIL05\" ubicato nel comune di Vignate (MI)",
+        "family": "Roboto, Arial;\">",
+        "size": "9pt;\">INFRASTRUCTURE ITALIA LAND 5 S.R.L.",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.368145, 45.5020733, 0.0],
+            [9.3686171, 45.4999343, 0.0],
+            [9.371472, 45.500153, 0.0],
+            [9.372547, 45.5018138, 0.0],
+            [9.3740137, 45.5018951, 0.0],
+            [9.3737029, 45.5025672, 0.0],
+            [9.368145, 45.5020733, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progettazione nuovo Data Center Liscate",
+        "family": "Roboto, Arial;\">",
+        "size": "9pt;\">INFRASTRUCTURE ITALIA LAND 5 S.R.L.",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.407023, 45.4913577, 0.0],
+            [9.4039216, 45.4898402, 0.0],
+            [9.4049742, 45.4877873, 0.0],
+            [9.4084699, 45.4885096, 0.0],
+            [9.407023, 45.4913577, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Nuovo Data Center denominato MIL09 sito in comune di Melzo (MI)",
+        "family": "Roboto, Arial;\">",
+        "size": "9pt;\">INFRASTRUCTURE ITALIA LAND 9 S.R.L.",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.4120333, 45.4968922, 0.0],
+            [9.4092272, 45.4963971, 0.0],
+            [9.4101097, 45.4938954, 0.0],
+            [9.4108364, 45.4941948, 0.0],
+            [9.4107775, 45.4944671, 0.0],
+            [9.4122939, 45.4947255, 0.0],
+            [9.4125185, 45.4949359, 0.0],
+            [9.4126809, 45.4952829, 0.0],
+            [9.4120333, 45.4968922, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "DATA CENTER LIN 10 TREVIGLIO sito in Via della Costa, 2, Treviglio (BG).",
+        "family": "Roboto, Arial;\">",
+        "size": "9pt;\">SAVILLS I.M. SGR S.P.A.",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.5636109, 45.5098195, 0.0],
+            [9.5678562, 45.5097965, 0.0],
+            [9.5690382, 45.5113709, 0.0],
+            [9.5695787, 45.5121587, 0.0],
+            [9.5694134, 45.5133585, 0.0],
+            [9.563909, 45.5129946, 0.0],
+            [9.5636109, 45.5098195, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progetto per un nuovo data center nel comune di Sedriano (MI)",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.9671287, 45.5025892, 0.0],
+            [8.9674947, 45.5016659, 0.0],
+            [8.96966, 45.501673, 0.0],
+            [8.9706974, 45.5018856, 0.0],
+            [8.9710007, 45.5013796, 0.0],
+            [8.9722728, 45.5018341, 0.0],
+            [8.9719815, 45.5030802, 0.0],
+            [8.9671287, 45.5025892, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Realizzazione di un nuovo Data Center ubicato nel comune di Lacchiarella - Installazione di generatori di emergenza di potenza termica superiore a 150 MWth (Pt=1.010 MW)",
+        "family": "Roboto, Arial;\">",
+        "size": "9pt;\">APTO ITALIA S.R.L.",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.1222523, 45.3395762, 0.0],
+            [9.1248876, 45.3354106, 0.0],
+            [9.1279071, 45.3364838, 0.0],
+            [9.1305307, 45.3341465, 0.0],
+            [9.1329509, 45.334846, 0.0],
+            [9.1321693, 45.337446, 0.0],
+            [9.1302934, 45.3368733, 0.0],
+            [9.1294452, 45.3379227, 0.0],
+            [9.1278619, 45.3382805, 0.0],
+            [9.1269685, 45.3398148, 0.0],
+            [9.1253512, 45.339457, 0.0],
+            [9.125013, 45.3402034, 0.0],
+            [9.1222523, 45.3395762, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "MXP MAGENTA - Campus ad uso Data Center sito nel comune di Magenta (MI)",
+        "family": "Roboto, Arial;\">",
+        "size": "9pt;\">NAMIRA S.G.R.P.A.",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.8699406, 45.4698148, 0.0],
+            [8.8704763, 45.4650071, 0.0],
+            [8.8764167, 45.4670975, 0.0],
+            [8.8760253, 45.4701872, 0.0],
+            [8.8699406, 45.4698148, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Completamento del data center MXP1 e del sistema di alimentazione elettrica di emergenza - Melegnano (MI)",
+        "family": "Roboto, Arial;\">",
+        "size": "9pt;\">VDC MXP 11 S.r.l.",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.3085298, 45.3544255, 0.0],
+            [9.3090388, 45.3537671, 0.0],
+            [9.3104073, 45.3543192, 0.0],
+            [9.309902, 45.3548506, 0.0],
+            [9.3093781, 45.3546431, 0.0],
+            [9.3092933, 45.3547027, 0.0],
+            [9.3085298, 45.3544255, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "MXP VDC",
+        "family": "Roboto, Arial;\">",
+        "size": "9pt;\">VDC MXP 11 S.r.l.",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.3099834, 45.3551004, 0.0],
+            [9.3065725, 45.3541624, 0.0],
+            [9.308508, 45.3517005, 0.0],
+            [9.3102747, 45.3520708, 0.0],
+            [9.309752, 45.3529319, 0.0],
+            [9.3112182, 45.3535945, 0.0],
+            [9.3099834, 45.3551004, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progetto Datacenter edificio A e edificio B Rho/Pero (MI)",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.0640259, 45.5228144, 0.0],
+            [9.0697396, 45.519591, 0.0],
+            [9.07006, 45.5202032, 0.0],
+            [9.0699445, 45.5207836, 0.0],
+            [9.06945, 45.5217343, 0.0],
+            [9.0681395, 45.5238443, 0.0],
+            [9.0653127, 45.523362, 0.0],
+            [9.0640259, 45.5228144, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "CAMPUS DATA4 (MIL02) Vittuone (MI)",
+        "family": "Roboto, Arial;\">",
+        "size": "9pt;\">DATA 4 LOMBARDIA S.P.A.",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.9593693, 45.4807934, 0.0],
+            [8.9593288, 45.4790894, 0.0],
+            [8.9636101, 45.4789133, 0.0],
+            [8.9636325, 45.4800846, 0.0],
+            [8.9615163, 45.480156, 0.0],
+            [8.961532, 45.4807166, 0.0],
+            [8.9593693, 45.4807934, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progetto di ampliamento del Data Center Supernap sito in via Marche 8 a Siziano di proprietà di Supernap Italia",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.2019013, 45.3305052, 0.0],
+            [9.2066515, 45.3304156, 0.0],
+            [9.2073715, 45.3304747, 0.0],
+            [9.208401, 45.3306432, 0.0],
+            [9.2083729, 45.3317238, 0.0],
+            [9.2079216, 45.3317635, 0.0],
+            [9.2067511, 45.3319023, 0.0],
+            [9.203832, 45.3322193, 0.0],
+            [9.2019282, 45.3322196, 0.0],
+            [9.2019013, 45.3305052, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progetto Datacenter A1 - WTR, Settimo Milanese (MI)",
+        "family": "Geist, Arial;\">",
+        "size": "10pt;\">Equinix Hyperscale 2 (ML7) Srl",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.0376643, 45.4777431, 0.0],
+            [9.0361926, 45.4773414, 0.0],
+            [9.0363451, 45.4770332, 0.0],
+            [9.0367331, 45.4771218, 0.0],
+            [9.0371688, 45.4762413, 0.0],
+            [9.0381789, 45.4764922, 0.0],
+            [9.0376643, 45.4777431, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progetto di ampliamento del polo tecnologico Aruba Spa costituito da Datacenter per la fornitura di servizi clouds come server e relativa installazione dei gruppi elettrogeni di emergenza, alimentati a gasolio, da realizzarsi in Comune di Ponte San Pietro (BG) in via San Clemente n.53",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.5877083, 45.7081527, 0.0],
+            [9.5875602, 45.7070553, 0.0],
+            [9.5876625, 45.7060028, 0.0],
+            [9.5885373, 45.7045333, 0.0],
+            [9.588603, 45.7036534, 0.0],
+            [9.5880837, 45.7026589, 0.0],
+            [9.589788, 45.7026618, 0.0],
+            [9.5898175, 45.7024767, 0.0],
+            [9.5928015, 45.7024383, 0.0],
+            [9.5901843, 45.7071143, 0.0],
+            [9.5893478, 45.7079407, 0.0],
+            [9.5884823, 45.7082188, 0.0],
+            [9.5877083, 45.7081527, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progetto per la realizzazione di un Datacenter in Comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 50 mwt",
+        "family": "Geist, Arial;\">",
+        "size": "10pt;\">MICROSOFT 4825 ITALY S.R.L.",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.2055331, 45.2571339, 0.0],
+            [9.2053065, 45.2553902, 0.0],
+            [9.206885, 45.2554074, 0.0],
+            [9.2069093, 45.2533959, 0.0],
+            [9.2092729, 45.2536295, 0.0],
+            [9.2107543, 45.2533558, 0.0],
+            [9.2091273, 45.2571567, 0.0],
+            [9.2055331, 45.2571339, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progetto per la realizzazione di un Datacenter in Comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 50 mwt",
+        "family": "Geist, Arial;\">",
+        "size": "10pt;\">MICROSOFT 4825 ITALY S.R.L.",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.2055331, 45.2571339, 0.0],
+            [9.2053065, 45.2553902, 0.0],
+            [9.206885, 45.2554074, 0.0],
+            [9.2069093, 45.2533959, 0.0],
+            [9.2092729, 45.2536295, 0.0],
+            [9.2107543, 45.2533558, 0.0],
+            [9.2091273, 45.2571567, 0.0],
+            [9.2055331, 45.2571339, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Data Center Stack Campus Siziano (PV).",
+        "family": "Geist, Arial\">",
+        "size": null,
+        "style": "normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; text-decoration: none; color: rgb(67, 67, 67);\">",
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.2114158, 45.3257583, 0.0],
+            [9.2118393, 45.3250065, 0.0],
+            [9.2128534, 45.3251061, 0.0],
+            [9.2145752, 45.3255557, 0.0],
+            [9.2147921, 45.3258209, 0.0],
+            [9.214616, 45.3263809, 0.0],
+            [9.214488, 45.3264331, 0.0],
+            [9.2114158, 45.3257583, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ampliamento data center Noovle SpA",
+        "family": "Geist, Arial;\">",
+        "size": "10pt;\">Noovle SpA",
+        "style": "normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; text-decoration: none; color: rgb(67, 67, 67);\">",
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [8.9082302, 45.4906145, 0.0],
+            [8.9083541, 45.4910231, 0.0],
+            [8.9088129, 45.4909462, 0.0],
+            [8.9093743, 45.4924581, 0.0],
+            [8.9055869, 45.4924567, 0.0],
+            [8.9053793, 45.4921321, 0.0],
+            [8.9052155, 45.4909784, 0.0],
+            [8.9082302, 45.4906145, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Datacenter Italy Caleppio di Settala (MI)",
+        "family": "Geist, Arial\">",
+        "size": null,
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.3846, 45.4293555, 0.0],
+            [9.3844562, 45.4285672, 0.0],
+            [9.3888182, 45.4282699, 0.0],
+            [9.3885648, 45.428855, 0.0],
+            [9.3881391, 45.4289204, 0.0],
+            [9.3875945, 45.4299757, 0.0],
+            [9.3846, 45.4293555, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Datacenter MIL04, Pescheria Borromeo (MI)",
+        "family": "Geist, Arial\">",
+        "size": null,
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.3081797, 45.463339, 0.0],
+            [9.3088142, 45.4618587, 0.0],
+            [9.3111721, 45.4605874, 0.0],
+            [9.3118797, 45.4606037, 0.0],
+            [9.3134376, 45.4612736, 0.0],
+            [9.3135884, 45.461504, 0.0],
+            [9.3124311, 45.4636977, 0.0],
+            [9.3121662, 45.4638326, 0.0],
+            [9.3117366, 45.4638638, 0.0],
+            [9.3081797, 45.463339, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Regione AWS Europe (Milan) - Espansione - Datacenter Edificio A nel comune di Zibido San Giacomo (MI).",
+        "family": "Geist, Arial;\">",
+        "size": "10pt;\">AMAZON DATA SERVICES ITALY S.R.L.",
+        "style": "normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; text-decoration: none; color: rgb(67, 67, 67);\">",
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.1265063, 45.365629, 0.0],
+            [9.1265384, 45.3655012, 0.0],
+            [9.1258269, 45.364828, 0.0],
+            [9.1251272, 45.3651538, 0.0],
+            [9.1245216, 45.3644035, 0.0],
+            [9.1258807, 45.3628424, 0.0],
+            [9.1268838, 45.3633727, 0.0],
+            [9.1267112, 45.3635471, 0.0],
+            [9.1283936, 45.3654265, 0.0],
+            [9.1267978, 45.3659186, 0.0],
+            [9.1265063, 45.365629, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Realizzazione di un campus tecnologico composto da tre edifici data center indipendenti e installazione di n.133 generatori per una potenza termica complessiva di circa 1.000 MWt da realizzare nel Comune di Vimercate (MB)",
+        "family": "Geist, Arial\">",
+        "size": null,
+        "style": "normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; text-decoration: none; color: rgb(67, 67, 67);\">",
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.3560649, 45.6318596, 0.0],
+            [9.3559505, 45.631784, 0.0],
+            [9.3550155, 45.6323443, 0.0],
+            [9.3548554, 45.6308453, 0.0],
+            [9.3562809, 45.630717, 0.0],
+            [9.3556936, 45.6274463, 0.0],
+            [9.3570813, 45.6273147, 0.0],
+            [9.3569728, 45.6267667, 0.0],
+            [9.3585121, 45.6266123, 0.0],
+            [9.3586338, 45.6271576, 0.0],
+            [9.3614631, 45.6268852, 0.0],
+            [9.3619978, 45.6296759, 0.0],
+            [9.3607056, 45.6298098, 0.0],
+            [9.3603375, 45.6301303, 0.0],
+            [9.3599885, 45.6302635, 0.0],
+            [9.3601671, 45.6310138, 0.0],
+            [9.3599512, 45.6310227, 0.0],
+            [9.359913, 45.6308806, 0.0],
+            [9.3596712, 45.6309165, 0.0],
+            [9.3596095, 45.6310396, 0.0],
+            [9.3594444, 45.6311017, 0.0],
+            [9.3570938, 45.6314081, 0.0],
+            [9.3571146, 45.631528, 0.0],
+            [9.3569685, 45.6315591, 0.0],
+            [9.357127, 45.6324336, 0.0],
+            [9.3568157, 45.6324559, 0.0],
+            [9.3565603, 45.6316569, 0.0],
+            [9.3560649, 45.6318596, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Installazione di gruppi elettrogeni di emergenza di potenza complessiva pari a 132 MWt - datacenter in Comune di Segrate nell'area ex-CISE",
+        "family": null,
+        "size": null,
+        "style": null,
+        "weight": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.2647634, 45.4844338, 0.0],
+            [9.2660064, 45.4844706, 0.0],
+            [9.2662001, 45.4834703, 0.0],
+            [9.2680764, 45.4835249, 0.0],
+            [9.2682623, 45.4845044, 0.0],
+            [9.2688431, 45.484526, 0.0],
+            [9.2685011, 45.4851652, 0.0],
+            [9.2684486, 45.4861084, 0.0],
+            [9.2666169, 45.485989, 0.0],
+            [9.2658005, 45.4861611, 0.0],
+            [9.2646014, 45.4860741, 0.0],
+            [9.2647634, 45.4844338, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Ampliamento del datacenter Noovle di Rozzano (MI) ",
+        "family": "Geist, Arial\">",
+        "size": null,
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.1649982, 45.3835149, 0.0],
+            [9.1644713, 45.3834865, 0.0],
+            [9.1638829, 45.3833319, 0.0],
+            [9.1636149, 45.3830456, 0.0],
+            [9.1630197, 45.3813769, 0.0],
+            [9.163699, 45.3811518, 0.0],
+            [9.1646258, 45.3810819, 0.0],
+            [9.16458, 45.3808552, 0.0],
+            [9.1659676, 45.3804296, 0.0],
+            [9.1680352, 45.3803219, 0.0],
+            [9.1682192, 45.3816712, 0.0],
+            [9.1661924, 45.3818176, 0.0],
+            [9.1664275, 45.3834102, 0.0],
+            [9.1649982, 45.3835149, 0.0]
+          ]
+        ]
+      }
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [9.211366503700141, 45.25718697576775],
+          [9.209346891383417, 45.25712440322891],
+          [9.206895419424825, 45.2571154368936],
+          [9.206906540938235, 45.25570203979774],
+          [9.205344774466868, 45.25576500651177],
+          [9.205345893433828, 45.25542549973306],
+          [9.206907968844849, 45.25536283026592],
+          [9.206984548488794, 45.2533870348412],
+          [9.209257930103234, 45.25365309087005],
+          [9.210820222513034, 45.25333330104393],
+          [9.212598399479425, 45.25361938408432],
+          [9.211366503700141, 45.25718697576775]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "Name": "Progetto per la realizzazione di un Datacenter in comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 150 MWt."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [9.211366503700141, 45.25718697576775],
+          [9.209346891383417, 45.25712440322891],
+          [9.206895419424825, 45.2571154368936],
+          [9.206906540938235, 45.25570203979774],
+          [9.205344774466868, 45.25576500651177],
+          [9.205345893433828, 45.25542549973306],
+          [9.206907968844849, 45.25536283026592],
+          [9.206984548488794, 45.2533870348412],
+          [9.209257930103234, 45.25365309087005],
+          [9.210820222513034, 45.25333330104393],
+          [9.212598399479425, 45.25361938408432],
+          [9.211366503700141, 45.25718697576775]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "Name": "Progetto per la realizzazione di un Datacenter in Comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 50 mwt"
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Progetto Nuovo Data Center a Settimo Milanese (MI) per la fornitura di servizi clouds come server, risorse di archiviazione, database, rete, software, analisi e intelligence",
+        "family": "Geist, Arial;\">",
+        "size": "10pt;\">Equinix Hyperscale 2 (ML7) Srl",
+        "style": null,
+        "weight": "normal; font-style: normal; color: rgb(67, 67, 67);\">"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [9.0376643, 45.4777431, 0.0],
+            [9.0361926, 45.4773414, 0.0],
+            [9.0363451, 45.4770332, 0.0],
+            [9.0367331, 45.4771218, 0.0],
+            [9.0371688, 45.4762413, 0.0],
+            [9.0381789, 45.4764922, 0.0],
+            [9.0376643, 45.4777431, 0.0]
+          ]
+        ]
+      }
+    }
+  ]
+}
