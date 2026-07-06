@@ -17,7 +17,7 @@ function StaticMap({ name }) {
   return (
     <Zoom>
       <img
-        src={entry.file}
+        src={`.${entry.file}`}
         alt={`Mappa di ${name}`}
         width={entry.width}
         height={entry.height}
