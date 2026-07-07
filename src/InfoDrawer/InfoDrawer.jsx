@@ -10,19 +10,21 @@ function InfoDrawer() {
       <Drawer.Portal>
         <Drawer.Backdrop className="[--backdrop-opacity:0.2] [--bleed:3rem] dark:[--backdrop-opacity:0.7] fixed inset-0 min-h-dvh bg-black opacity-[calc(var(--backdrop-opacity)*(1-var(--drawer-swipe-progress)))] transition-opacity duration-[450ms] ease-[cubic-bezier(0.32,0.72,0,1)] data-swiping:duration-0 data-ending-style:opacity-0 data-starting-style:opacity-0 data-ending-style:duration-[calc(var(--drawer-swipe-strength)*400ms)] supports-[-webkit-touch-callout:none]:absolute" />
         <Drawer.Viewport className="[--viewport-padding:0px] supports-[-webkit-touch-callout:none]:[--viewport-padding:0.625rem] fixed inset-0 flex items-stretch justify-end p-(--viewport-padding)">
-          <Drawer.Popup className="[--bleed:3rem] supports-[-webkit-touch-callout:none]:[--bleed:0px] h-full w-[calc(40rem+3rem)] max-w-[calc(100vw-3rem+3rem)] -mr-[3rem] bg-white p-8 pr-[calc(1.5rem+3.5rem)] text-neutral-950 outline-none shadow-[0.25rem_0.25rem_0] shadow-black/12 overflow-y-auto overscroll-contain touch-auto [transform:translateX(var(--drawer-swipe-movement-x))] transition-transform duration-[450ms] ease-[cubic-bezier(0.32,0.72,0,1)] data-swiping:select-none data-ending-style:[transform:translateX(calc(100%-var(--bleed)+var(--viewport-padding)+2px))] data-starting-style:[transform:translateX(calc(100%-var(--bleed)+var(--viewport-padding)+2px))] data-ending-style:duration-[calc(var(--drawer-swipe-strength)*400ms)] supports-[-webkit-touch-callout:none]:mr-0 supports-[-webkit-touch-callout:none]:w-[20rem] supports-[-webkit-touch-callout:none]:max-w-[calc(100vw-3rem)] supports-[-webkit-touch-callout:none]:border supports-[-webkit-touch-callout:none]:pr-6">
+          <Drawer.Popup className="[--bleed:3rem] supports-[-webkit-touch-callout:none]:[--bleed:0px] h-full w-[calc(40rem+3rem)] max-w-[calc(100vw-3rem+3rem)] -mr-[3rem] bg-white/80 backdrop-blur-sm p-8 pr-[calc(1.5rem+3.5rem)] text-neutral-950 outline-none shadow-[0.25rem_0.25rem_0] shadow-black/12 overflow-y-auto overscroll-contain touch-auto [transform:translateX(var(--drawer-swipe-movement-x))] transition-transform duration-[450ms] ease-[cubic-bezier(0.32,0.72,0,1)] data-swiping:select-none data-ending-style:[transform:translateX(calc(100%-var(--bleed)+var(--viewport-padding)+2px))] data-starting-style:[transform:translateX(calc(100%-var(--bleed)+var(--viewport-padding)+2px))] data-ending-style:duration-[calc(var(--drawer-swipe-strength)*400ms)] supports-[-webkit-touch-callout:none]:mr-0 supports-[-webkit-touch-callout:none]:w-[20rem] supports-[-webkit-touch-callout:none]:max-w-[calc(100vw-3rem)] supports-[-webkit-touch-callout:none]:border supports-[-webkit-touch-callout:none]:pr-6">
             <Drawer.Content className="mx-auto w-full">
-              <div className="flex justify-between border-b border-b-mauve-300 pb-4 mb-4">
-                <Drawer.Title className="font-display text-3xl">
+              <div className="flex justify-between align-middle border-b border-b-mauve-300 pb-4 mb-4">
+                <Drawer.Title className="font-display text-2xl">
                   Sul progetto
                 </Drawer.Title>
-                <Drawer.Close className="p-2 hover:cursor-pointer hover:bg-mauve-100 transition-colors rounded-full">
-                  <XIcon size={24} />
+                <Drawer.Close className="p-2 hover:cursor-pointer hover:bg-white/50 transition-colors rounded-full">
+                  <XIcon size={16} />
                 </Drawer.Close>
               </div>
 
               <Drawer.Description className="mb-6 space-y-2">
-                <p className="text-2xl font-display">I nuovi feudi sono qui!</p>
+                <h2 className="text-3xl font-display">
+                  Le nuove fortezze dell'intelligenza artificiale
+                </h2>
                 <p>
                   "Fortezze AI" raccoglie i progetti in via di valutazione e
                   costruzione dei nuovi data center nei dintorni di Milano.
