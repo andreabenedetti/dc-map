@@ -25,7 +25,6 @@ function App() {
             "px-4 sm:px-0 container mx-auto min-h-full flex flex-wrap content-center justify-start text-white"
           }
         >
-          <p className={"text-xs uppercase tracking-[.5em]"}>[Fortezze AI]</p>
           <h1
             className={
               "text-7xl sm:text-9xl self-center mb-4 w-full intro-title"
