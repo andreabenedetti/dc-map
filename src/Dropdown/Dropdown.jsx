@@ -15,7 +15,7 @@ function Dropdown({ list, search, label, value, onChange }) {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         className={
-          "px-2.5 py-2 border border-solid border-mauve-300 rounded-sm"
+          "w-full sm:w-auto px-2.5 py-2 border border-solid border-mauve-300 rounded-sm"
         }
       >
         <option>Seleziona un'azienda</option>

@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div
       className={
-        "container mx-auto mt-10 pt-8 pb-8 border-solid border-gray-300 border-t text-sm text-gray-400"
+        "px-4 sm:px-0 container mx-auto mt-10 pt-8 pb-8 border-solid border-gray-300 border-t text-sm text-mauve-400"
       }
     >
       <div className={"grid xs:grid-cols-1 md:grid-cols-3 gap-6"}>

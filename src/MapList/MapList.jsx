@@ -16,7 +16,7 @@ function MapList({ data }) {
     <>
       <div
         className={
-          "flex container mx-auto py-3 sticky top-9.25 bg-white justify-center"
+          "flex container mx-auto pt-3 pb-1 px-4 sm:px-0 sticky top-9.25 bg-white justify-center align-middle flex-wrap space-y-2 sm:space-y-0"
         }
       >
         <Dropdown
@@ -29,7 +29,7 @@ function MapList({ data }) {
         <Button
           onClick={() => setProposer("")}
           className={
-            "p-1.5 px-3 bg-mauve-300 rounded-sm text-sm hover:cursor-pointer hover:bg-mauve-200 transition-all"
+            "px-3 bg-mauve-300 rounded-sm text-sm hover:cursor-pointer hover:bg-mauve-200 transition-all w-full sm:w-auto"
           }
         >
           {/* onClick setProposer("") resetta lo stato di useState, e resetta il filtro */}
