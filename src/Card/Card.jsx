@@ -9,18 +9,18 @@ function Card({ key, name, map, status, company, label }) {
       <div className={"w-2/3 sm:w-3/4"}>
         <h2 className={"text-xl font-display font-semibold"}>{label}</h2>
         <div className={" mt-1 pt-1 capitalize"}>
-          <p className={"text-xs font-bold text-mauve-400 "}>azienda</p>
-          <p className={"font-display "}>{company}</p>
+          <p className={"text-xs font-bold text-rose-600 "}>azienda</p>
+          <p>{company}</p>
         </div>
         <div className={"mt-1 pt-1 "}>
-          <p className={"text-xs font-bold text-mauve-400"}>Stato</p>
-          <p className={"font-display"}>{status}</p>
+          <p className={"text-xs font-bold text-rose-600"}>Stato</p>
+          <p>{status}</p>
         </div>
         <div className={"mt-1 pt-1"}>
-          <p className={"text-xs font-bold text-mauve-400"}>
+          <p className={"text-xs font-bold text-rose-600"}>
             Titolo del progetto
           </p>
-          <p className={"font-display"}>{name}</p>
+          <p>{name}</p>
         </div>
       </div>
     </div>

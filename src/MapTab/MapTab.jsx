@@ -7,22 +7,26 @@ function MapTab({ data }) {
     <Tabs.Root defaultValue="list" className="w-full">
       <Tabs.List
         className={
-          "bg-white w-full flex justify-center border-solid border-b-mauve-300 border-b text-sm sticky top-0"
+          "bg-olive-800 w-full flex justify-center border-solid border-b-olive-300 border-b text-sm sticky top-0"
         }
       >
         <Tabs.Tab
           value="list"
-          className={"text-mauve-700 h-full px-5 py-2 hover:cursor-pointer"}
+          className={
+            "text-olive-200 font-bold h-full px-5 py-3 hover:cursor-pointer"
+          }
         >
           Lista
         </Tabs.Tab>
         <Tabs.Tab
           value="map"
-          className={"text-mauve-700 h-full px-5 py-2 hover:cursor-pointer"}
+          className={
+            "text-olive-200 font-bold h-full px-5 py-3 hover:cursor-pointer"
+          }
         >
           Mappa
         </Tabs.Tab>
-        <Tabs.Indicator className="absolute top-0 left-0 -z-1 h-full w-(--active-tab-width) translate-x-(--active-tab-left) border-b-mauve-600 border-b-4 transition-[translate,width] duration-150 ease-in-out" />
+        <Tabs.Indicator className="absolute top-0 left-0 -z-1 h-full w-(--active-tab-width) translate-x-(--active-tab-left) border-b-orange-600 border-b-4 transition-[translate,width] duration-150 ease-in-out" />
       </Tabs.List>
       <Tabs.Panel value="list">
         <MapList data={data} />

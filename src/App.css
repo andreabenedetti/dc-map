@@ -1,13 +1,32 @@
 @import url("https://fonts.cdnfonts.com/css/minion-pro");
 @import "tailwindcss";
 
-@theme {
-    --font-display: "Minion Pro";
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
 @font-face {
     font-family: "Lithops";
-    src: url("assets/fonts/Lithops-Regular.woff2");
+    src: url("assets/fonts/Lithops-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Ronzino";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("assets/fonts/Ronzino-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Ronzino";
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("assets/fonts/Ronzino-Bold.woff2") format("woff2");
+}
+
+@theme {
+    --font-display: "Minion Pro";
+    --font-sans: "Ronzino";
 }
 
 #root {

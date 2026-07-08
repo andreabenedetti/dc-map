@@ -8,7 +8,7 @@ function StaticMap({ name }) {
 
   if (!entry) {
     return (
-      <div className="w-full h-full bg-mauve-100 flex items-center justify-center text-xs text-mauve-300 text-center">
+      <div className="w-full h-full bg-olive-200 flex items-center justify-center text-xs text-olive-400 text-center">
         Mappa non disponibile
       </div>
     );

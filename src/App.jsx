@@ -9,12 +9,8 @@ function App() {
 
   return (
     <>
-      <div
-        className={
-          "bg-linear-to-b from-mauve-800 to-rose-950 w-full pb-5 sm:h-2/3"
-        }
-      >
-        <div className={"container mx-auto px-4 sm:px-0 py-4 text-white"}>
+      <div className={"text-orange-600 bg-olive-800 w-full pb-5 sm:h-2/3"}>
+        <div className={"container mx-auto px-4 sm:px-0 py-4"}>
           <div className={"flex justify-between align-middle"}>
             <p className={"font-display"}>NINA</p>
             <InfoDrawer />
@@ -22,12 +18,12 @@ function App() {
         </div>
         <div
           className={
-            "px-4 sm:px-0 container mx-auto min-h-full flex flex-wrap content-center justify-start text-white"
+            "px-4 sm:px-0 container mx-auto min-h-full flex flex-wrap content-center justify-start"
           }
         >
           <h1
             className={
-              "text-7xl sm:text-9xl self-center mb-4 w-full intro-title"
+              "text-7xl sm:text-[10em] self-center mb-4 w-full intro-title"
             }
           >
             Fortezze A.I.
