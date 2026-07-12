@@ -35,7 +35,7 @@ function App() {
         </div>
       </div>
       <Intro />
-      <MapTab data={data} />
+      {/* <MapTab data={data} />*/}
       <Footer />
     </>
   );
