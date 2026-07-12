@@ -3,16 +3,17 @@ import list from "./assets/list.json";
 import Footer from "./Footer/Footer";
 import MapTab from "./MapTab/MapTab";
 import InfoDrawer from "./InfoDrawer/InfoDrawer";
+import Intro from "./Intro/Intro";
 
 function App() {
   const data = [...list].sort((a, b) => (a.proposer > b.proposer ? 1 : -1));
 
   return (
     <>
-      <div className={"text-orange-600 bg-olive-800 w-full pb-5 sm:h-2/3"}>
+      <div className={"text-blue-400 bg-indigo-950 w-full pb-5 sm:h-2/3"}>
         <div className={"container mx-auto px-4 sm:px-0 py-4"}>
           <div className={"flex justify-between align-middle"}>
-            <p className={"font-display"}>NINA</p>
+            <p>NINA</p>
             <InfoDrawer />
           </div>
         </div>
@@ -28,11 +29,12 @@ function App() {
           >
             Fortezze A.I.
           </h1>
-          <h2 className={"w-full sm:w-2/3 text-lg sm:text-2xl font-display"}>
-            Mappatura dei progetti dei nuovi data center intorno a Milano
+          <h2 className={"w-full text-3xl sm:text-4xl font-serif text-balance"}>
+            Come i data center stanno diventando le nuove fortezze dell'intelligenza artificiale
           </h2>
         </div>
       </div>
+      <Intro />
       <MapTab data={data} />
       <Footer />
     </>

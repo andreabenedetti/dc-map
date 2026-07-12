@@ -3,20 +3,18 @@ import Card from "../Card/Card";
 import Dropdown from "../Dropdown/Dropdown";
 import { useState } from "react";
 
-function MapList({ data }) {
+function MapList({ data, filter }) {
   const [proposer, setProposer] = useState();
 
   const filteredList = proposer
     ? data.filter((item) => item.proposer === proposer)
     : data;
 
-  console.log(filteredList);
-
   return (
     <>
       <div
         className={
-          "flex container mx-auto pt-3 pb-1 px-4 sm:px-0 sticky top-11.25 bg-olive-100 justify-center align-middle flex-wrap space-y-2 sm:space-y-0"
+          "flex container mx-auto pt-3 pb-1 px-4 sm:px-0 sticky top-11.25 bg-blue-50 justify-center align-middle flex-wrap space-y-2 sm:space-y-0"
         }
       >
         <Dropdown
@@ -29,7 +27,7 @@ function MapList({ data }) {
         <Button
           onClick={() => setProposer("")}
           className={
-            "px-3 bg-orange-600 text-olive-100 text-sm hover:cursor-pointer hover:bg-orange-700 transition-all w-full sm:w-auto"
+            "px-3 bg-indigo-950 text-olive-100 rounded-sm text-sm hover:cursor-pointer hover:bg-blue-400 transition-all w-full sm:w-auto"
           }
         >
           {/* onClick setProposer("") resetta lo stato di useState, e resetta il filtro */}

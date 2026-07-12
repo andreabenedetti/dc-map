@@ -7,17 +7,17 @@ function Card({ key, name, map, status, company, label }) {
         <StaticMap name={name} className={"rounded-t-md mb-2"} />
       </div>
       <div className={"w-2/3 sm:w-3/4"}>
-        <h2 className={"text-xl font-display font-semibold"}>{label}</h2>
+        <h2 className={"text-xl font-serif font-semibold"}>{label}</h2>
         <div className={" mt-1 pt-1 capitalize"}>
-          <p className={"text-sm font-bold text-olive-500 "}>AZIENDA</p>
+          <p className={"text-sm font-bold text-slate-500 "}>AZIENDA</p>
           <p>{company}</p>
         </div>
         <div className={"mt-1 pt-1 "}>
-          <p className={"text-sm font-bold text-olive-500"}>STATO</p>
+          <p className={"text-sm font-bold text-slate-500"}>STATO</p>
           <p>{status}</p>
         </div>
         <div className={"mt-1 pt-1"}>
-          <p className={"text-sm font-bold text-olive-500"}>PROGETTO</p>
+          <p className={"text-sm font-bold text-slate-500"}>PROGETTO</p>
           <p>{name}</p>
         </div>
       </div>
