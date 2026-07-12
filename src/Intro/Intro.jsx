@@ -27,7 +27,7 @@ function Intro() {
           </p>
         </div>
         <div className="w-full sm:w-1/3">
-          <img src="cover-2.png" className="w-fit" />
+          <img src="cover-3.png" className="w-fit" />
         </div>
       </div>
     </div>
