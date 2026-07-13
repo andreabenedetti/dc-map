@@ -36,6 +36,9 @@ function App() {
       </div>
       <Intro />
       {/* <MapTab data={data} />*/}
+      <div className={"container mx-auto px-4 sm:px-0 py-20 flex flex-wrap items-center justify-center space-y-4"}>
+        <img src="img-2.png" className="w-120 h-auto max-w-full" />
+      <p className={"font-serif text-lg text-slate-600 text-balance text-center"}>Presto pubblicheremo i dati che abbiamo raccolto. Seguici su @n.i.n.a_watch per ricevere aggiornamenti e informazioni aggiuntive.</p></div>
       <Footer />
     </>
   );
