@@ -48,3 +48,8 @@
 .intro-title {
     font-family: "Lithops", serif;
 }
+
+a {
+    color: var(--color-blue-500);
+    font-weight: var(--font-weight-bold);
+}
