@@ -17,13 +17,31 @@ function InfoDrawer() {
                 <Drawer.Title className="font-serif text-2xl">
                   Sul progetto
                 </Drawer.Title>
-                <Drawer.Close className="p-2 hover:cursor-pointer hover:bg-olive-100 transition-colors rounded-full">
+                <Drawer.Close className="p-2 hover:cursor-pointer hover:bg-blue-100 transition-colors rounded-full">
                   <XIcon size={16} />
                 </Drawer.Close>
               </div>
 
               <Drawer.Description className="mb-6 space-y-2">
-                "Fortezze AI" è un progetto avviato da NINA - Né intelligente né artificiale. NINA è un collettivo di cittadinə, ricercatorə e lavoratorə che analizza, critica e contrasta le dinamiche di potere legate all’intelligenza artificiale. Studiamo come l’AI trasforma la società. Costruiamo reti di resistenza tra attivistə. Diamo vita a immaginari alternativi con azioni concrete per chi abita un mondo sempre più esposto agli algoritmi. Crediamo che il campo della tecnologia sia contendibile e che contenderlo sia urgente. Tra febbraio 2024 e maggio 2026 sono stati organizzati a Milano tre cicli di incontri dedicati all'intelligenza artificiale generativa. Il punto di partenza è un disagio condiviso: il dibattito pubblico sull'AI è dominato da toni profetici e polarizzati, divisi tra catastrofisti e ottimisti, mentre la realtà è che nessuno — nemmeno chi sviluppa questi sistemi — può prevedere con certezza come andrà a finire. L'AI generativa rappresenta un'accelerazione senza precedenti nell'automazione e richiede uno sforzo collettivo di comprensione. Il filo conduttore è la necessità di un'intelligenza umana e collettiva per affrontare una rottura tecnologica ed epistemologica dai contorni ancora incerti.
+                "Fortezze AI" è un progetto avviato da NINA - Né intelligente né artificiale. NINA è un collettivo di cittadinə, ricercatorə e lavoratorə che analizza, critica e contrasta le dinamiche di potere legate all’intelligenza artificiale. Studiamo come l’AI trasforma la società. Costruiamo reti di resistenza tra attivistə. Diamo vita a immaginari alternativi con azioni concrete per chi abita un mondo sempre più esposto agli algoritmi. Per costruire questa mappatura, stiamo raccogliendo tutti i progetti
+                pubblicamente disponibili sul sito del{" "}
+                <a href="https://va.mite.gov.it/it-IT/Ricerca/Via" target="">
+                  Ministero dell'Ambiente e della Sicurezza Energetica
+                </a>
+                , letto i documenti e estrapolato le informazioni sulle aree del
+                territorio che verranno impattate da questi progetti. Sul portale, con la parola chiave “data center” e “datacenter”,
+                vengono restituiti 44 progetti rilevanti in Lombardia: questi
+                progetti riguardano{" "}
+                <b>
+                  nuovi data center, espansioni di data center esistenti, la
+                  costruzione di gruppi energetici aggiuntivi, e la costruzione di
+                  pozzi per il trattamento delle acque.
+                </b> I progetti presentano molti documenti di descrizione del progetto,
+                dagli studi di fattibilità, agli impatti ambientali, fino alle
+                planimetrie dei data centers. Abbiamo ridisegnato le aree
+                geografiche interessate su Google Earth e compilato tutte le aree in
+                un unico file geografico che ci permettesse di avere una visione
+                d'insieme.
               </Drawer.Description>
               <a href="https://www.nina.watch/manifesto.html" target="_blank"><div className="flex py-2 w-full border-solid border-b border-b-slate-200 font-serif text-lg justify-between hover:p-2 hover:bg-slate-100 transition-all items-center">I venti passi di NINA <ArrowUpRightIcon size={18}/></div></a>
               <a href="https://www.nina.watch/incontri.html" target="_blank"><div className="flex py-2 w-full border-solid border-b border-b-slate-200 font-serif text-lg justify-between hover:p-2 hover:bg-slate-100 transition-all items-center">Le nostre iniziative <ArrowUpRightIcon size={18}/></div></a>

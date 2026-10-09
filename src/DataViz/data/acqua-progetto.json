@@ -1,0 +1,92 @@
+[
+  {
+    "projectType": "Ampliamento",
+    "category": "Nessuna info",
+    "value": 6
+  },
+  {
+    "projectType": "Ampliamento",
+    "category": "Acque sotterranee",
+    "value": 2
+  },
+  {
+    "projectType": "Ampliamento",
+    "category": "Acqua pubblica",
+    "value": 2
+  },
+  {
+    "projectType": "Installazioni energetiche",
+    "category": "Nessuna info",
+    "value": 6
+  },
+  {
+    "projectType": "Installazioni energetiche",
+    "category": "Acque piovane",
+    "value": 1
+  },
+  {
+    "projectType": "Installazioni energetiche",
+    "category": "Acque recuperate",
+    "value": 1
+  },
+  {
+    "projectType": "Installazioni energetiche",
+    "category": "Acque sotterranee",
+    "value": 2
+  },
+  {
+    "projectType": "Installazioni energetiche",
+    "category": "Acqua pubblica",
+    "value": 2
+  },
+  {
+    "projectType": "Nuova costruzione",
+    "category": "Nessuna info",
+    "value": 8
+  },
+  {
+    "projectType": "Nuova costruzione",
+    "category": "Acqua potabile",
+    "value": 1
+  },
+  {
+    "projectType": "Nuova costruzione",
+    "category": "Acque di condensa",
+    "value": 1
+  },
+  {
+    "projectType": "Nuova costruzione",
+    "category": "Acque piovane",
+    "value": 5
+  },
+  {
+    "projectType": "Nuova costruzione",
+    "category": "Acque recuperate",
+    "value": 3
+  },
+  {
+    "projectType": "Nuova costruzione",
+    "category": "Acque reflue",
+    "value": 1
+  },
+  {
+    "projectType": "Nuova costruzione",
+    "category": "Acque sotterranee",
+    "value": 4
+  },
+  {
+    "projectType": "Nuova costruzione",
+    "category": "Acqua pubblica",
+    "value": 12
+  },
+  {
+    "projectType": "Trattamento acque",
+    "category": "Acque sotterranee",
+    "value": 1
+  },
+  {
+    "projectType": "Trattamento acque",
+    "category": "Acqua pubblica",
+    "value": 1
+  }
+]

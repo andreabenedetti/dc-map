@@ -1,0 +1,137 @@
+[
+  {
+    "site": "Amazon Rho/Pero",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "Area ex-CISE",
+    "category": "Installazioni energetiche",
+    "value": 1
+  },
+  {
+    "site": "Bergamo",
+    "category": "Ampliamento",
+    "value": 1
+  },
+  {
+    "site": "Bergamo",
+    "category": "Installazioni energetiche",
+    "value": 1
+  },
+  {
+    "site": "Bornasco",
+    "category": "Installazioni energetiche",
+    "value": 2
+  },
+  {
+    "site": "Caleppio",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "Campus Data4",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "Campus Siziano",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "Lacchiarella",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "LIN10",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "Melzo/Liscate",
+    "category": "Nuova costruzione",
+    "value": 2
+  },
+  {
+    "site": "MIL01 Siziano",
+    "category": "Ampliamento",
+    "value": 2
+  },
+  {
+    "site": "MIL04",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "MIL05",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "MXP Magenta",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "MXP Melegnano",
+    "category": "Installazioni energetiche",
+    "value": 3
+  },
+  {
+    "site": "Polo Settimo Milanese",
+    "category": "Ampliamento",
+    "value": 2
+  },
+  {
+    "site": "Polo Settimo Milanese",
+    "category": "Nuova costruzione",
+    "value": 9
+  },
+  {
+    "site": "Polo Settimo Milanese",
+    "category": "Trattamento acque",
+    "value": 1
+  },
+  {
+    "site": "Regione AWS",
+    "category": "Ampliamento",
+    "value": 1
+  },
+  {
+    "site": "Rozzano",
+    "category": "Installazioni energetiche",
+    "value": 1
+  },
+  {
+    "site": "Santa Corinna",
+    "category": "Ampliamento",
+    "value": 1
+  },
+  {
+    "site": "Santa Corinna",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "Sedriano",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "Vellezzo Bellini",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "Vimercate ex-IBM",
+    "category": "Nuova costruzione",
+    "value": 1
+  },
+  {
+    "site": "Vimercate Torri Bianche",
+    "category": "Nuova costruzione",
+    "value": 1
+  }
+]

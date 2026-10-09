@@ -11,7 +11,6 @@ const centroids = [];
 
 for (const feature of geojson.features) {
   const d = centroid(feature);
-
   centroids.push(d);
 }
 
@@ -68,21 +67,21 @@ function Map() {
         },
       });
 
-      mapRef.current.addLayer({
-        id: "off-leash-areas",
-        type: "symbol",
-        source: "datacenters",
-        layout: {
-          "text-field": ["format", ["get", "Name"], { "font-scale": 0.8 }],
-          "text-font": ["DIN Pro Regular"],
-        },
-        paint: {
-          "text-color": "#ff2d6b",
-          "text-halo-color": "#FFFFFF",
-          "text-halo-width": 2,
-          "text-offset": [0, 100],
-        },
-      });
+      // mapRef.current.addLayer({
+      //   id: "off-leash-areas",
+      //   type: "symbol",
+      //   source: "datacenters",
+      //   layout: {
+      //     "text-field": ["format", ["get", "Name"], { "font-scale": 0.8 }],
+      //     "text-font": ["DIN Pro Regular"],
+      //   },
+      //   paint: {
+      //     "text-color": "#ff2d6b",
+      //     "text-halo-color": "#FFFFFF",
+      //     "text-halo-width": 2,
+      //     "text-offset": [0, 100],
+      //   },
+      // });
       // mapRef.current.addSource("centroids", {
       //   type: "geojson",
       //   data: {
@@ -105,6 +104,10 @@ function Map() {
 
   return (
     <>
+      <div className="container mx-auto my-10 px-4 sm:px-0 sm:max-w-4xl">
+        <h2 className="font-serif text-3xl">Mappa di tutti i progetti</h2>
+        <p className="mb-8">Per capire la portata dei progetti dei nuovi data centers, occorre avere anche una visione d'insieme che permetta di fare una panoramica di tutti i progetti. Qui trovi una mappa che mostra tutte le aree interessate da progetti di data centers in Lombardia.</p>
+      </div>
       <div id="map-container" ref={mapContainerRef} />
     </>
   );

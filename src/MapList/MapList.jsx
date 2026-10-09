@@ -1,6 +1,5 @@
 import { Button } from "@headlessui/react";
 import Card from "../Card/Card";
-import Dropdown from "../Dropdown/Dropdown";
 import { useState } from "react";
 
 function MapList({ data, filter }) {
@@ -17,13 +16,6 @@ function MapList({ data, filter }) {
           "flex container mx-auto pt-3 pb-1 px-4 sm:px-0 sticky top-11.25 bg-blue-50 justify-center align-middle flex-wrap space-y-2 sm:space-y-0"
         }
       >
-        <Dropdown
-          list={data}
-          search={"proposer"}
-          label={"Azienda proprietaria"}
-          value={proposer}
-          onChange={setProposer}
-        />
         <Button
           onClick={() => setProposer("")}
           className={

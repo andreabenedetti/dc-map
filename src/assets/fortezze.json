@@ -1,0 +1,548 @@
+[
+  {
+    "site": "Caleppio",
+    "link": "https://maps.app.goo.gl/ULj8gGKNaiWx28DDA",
+    "desc": "Caleppio (MI) è un comune di 3000 abitanti. Tra la Strada Provinciale ex Strada Statale 415 Paullese e la zona industriale è stato costruito un sito di Microsoft di 39,995.61 m² costituito da due data center: MIL01 e MIL02.",
+    "projects": [
+      {
+        "projectKey": "7922",
+        "siteKey": "s_05",
+        "name": "Datacenter Italy Caleppio di Settala (MI)",
+        "type": "Nuova costruzione",
+        "proposer": "Microsoft Srl",
+        "startDate": "23/06/2021",
+        "endDate": "16/08/2023",
+        "country": "Stati Uniti",
+        "link": "https://www.enadgermani.eu/monitoraggiodatacenter/progetti/7922.html"
+      }
+    ]
+  },
+  {
+    "site": "MIL01 Siziano",
+    "desc": "A Siziano (PV) è stato costruito un data center da parte di Supernap, i cui lavori si sono conclusi nel 2023. Nel 2025, il data center è stato oggetto di ampliamento, questa volta da parte di STACK Infrastructure, che ha acquisito Supernap.",
+    "projects": [
+      {
+        "projectKey": "7938",
+        "siteKey": "s_11",
+        "name": "Progetto di ampliamento del Data Center Supernap sito in via Marche 8 a Siziano di proprietà di Supernap Italia",
+        "type": "Ampliamento",
+        "proposer": "Supernap Italia spa",
+        "startDate": "06/07/2021",
+        "endDate": "19/12/2023",
+        "country": "Italia"
+      },
+      {
+        "projectKey": "11648",
+        "siteKey": "s_11",
+        "name": "Ampliamento Data Center Stack EMEA MIL01, via Marche 8 Siziano (PV).",
+        "type": "Ampliamento",
+        "proposer": "Stack EMEA Italy S.r.l.",
+        "startDate": "12/03/2025",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "Bornasco",
+    "projects": [
+      {
+        "projectKey": "8791",
+        "siteKey": "s_04",
+        "name": "Progetto per la realizzazione di un Datacenter in Comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 50 mwt",
+        "type": "Installazioni energetiche",
+        "proposer": "MICROSOFT 4825 ITALY S.R.L.",
+        "startDate": "25/05/2022",
+        "endDate": "20/01/2025",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "10588",
+        "siteKey": "s_04",
+        "name": "Progetto per la realizzazione di un Datacenter in comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 150 MWt.",
+        "type": "Installazioni energetiche",
+        "proposer": "MICROSOFT 4825 ITALY S.R.L.",
+        "startDate": "08/01/2024",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "Polo Settimo Milanese",
+    "desc": "A Settimo Milanese (MI) si concentra il più alto numero di progetti attualmente approvati. Con un totale di 11 progetti, l'area è interessata da interventi da parte di STACK Infrastructure, Equinix, e Microsoft. Questi progetti riguardano nuove costruzioni e ampliamenti di strutture esistenti, per un totale di 469,563.61 m².",
+    "link": "https://maps.app.goo.gl/5XsMjLZ2sbt85Xv6A",
+    "projects": [
+      {
+        "projectKey": "8846",
+        "siteKey": "s_16",
+        "name": "Progetto Nuovo Data Center a Settimo Milanese (MI) per la fornitura di servizi clouds come server, risorse di archiviazione, database, rete, software, analisi e intelligence.",
+        "type": "Nuova costruzione",
+        "proposer": "Equinix Hyperscale 2 (ML7) Srl",
+        "startDate": "01/07/2022",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "9241",
+        "siteKey": "s_16",
+        "name": "Istanza per l'avvio del procedimento di Verifica di assoggettabilità a VIA ai sensi dell'art.19 del D.Lgs.152/2006 relativa al progetto Nuovo Data Center a Settimo Milanese (MI)",
+        "type": "Nuova costruzione",
+        "proposer": "Equinix Hyperscale 2 (ML7) Srl",
+        "startDate": "24/10/2022",
+        "endDate": "03/07/2026",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "9638",
+        "siteKey": "s_16",
+        "name": "Progetto Datacenter A1 - WTR, Settimo Milanese (MI)",
+        "type": "Nuova costruzione",
+        "proposer": "MICROSOFT 4825 ITALY S.R.L.",
+        "startDate": "22/02/2023",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "10522",
+        "siteKey": "s_16",
+        "name": "Progetto Data Center MIL03, Settimo Milanese (MI).",
+        "type": "Nuova costruzione",
+        "proposer": "MICROSOFT 4825 ITALY S.R.L.",
+        "startDate": "02/01/2024",
+        "endDate": "06/08/2025",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "10745",
+        "siteKey": "s_16",
+        "name": "Progetto Data Center ML9 a Settimo Milanese (MI).",
+        "type": "Nuova costruzione",
+        "proposer": "Equinix Hyperscale 2 (ML9) Srl",
+        "startDate": "07/03/2024",
+        "endDate": "02/04/2026",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "11512",
+        "siteKey": "s_16",
+        "name": "Progetto D4 Data Center MIL1 - Masterplan campus",
+        "type": "Nuova costruzione",
+        "proposer": "DATA 4 MILAN S.P.A.",
+        "startDate": "27/12/2024",
+        "endDate": "In corso",
+        "country": "Francia"
+      },
+      {
+        "projectKey": "11794",
+        "siteKey": "s_16",
+        "name": "Data Center ML5 e ML6 nel comune di Settimo Milanese (MI).",
+        "type": "Nuova costruzione",
+        "proposer": "Equinix Italia S.r.l.",
+        "startDate": "30/06/2025",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "11899",
+        "siteKey": "s_16",
+        "name": "Data Center ML10 e ML11 nel comune di Settimo Milanese (MI)",
+        "type": "Nuova costruzione",
+        "proposer": "Equinix Hyperscale 2 (ML10) Srl",
+        "startDate": "22/10/2025",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "11965",
+        "siteKey": "s_16",
+        "name": "Data Center ML7-ML8 a Settimo Milanese (MI)",
+        "type": "Nuova costruzione",
+        "proposer": "EQUINIX HYPERSCALE 2 (ML7) S.R.L.",
+        "startDate": "23/12/2025",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "11997",
+        "siteKey": "s_16",
+        "name": "DATA 4 ITALY S.p.A. Milano - DATA CENTER LOCALIZZATO NEI TERRITORI COMUNALI DI CORNAREDO E SETTIMO MILANESE - CITTA' METROLITANA DI MILANO per Campus Data Center MIL 01 lotti A e B",
+        "type": "Ampliamento",
+        "proposer": "DATA 4 ITALY S.P.A.",
+        "startDate": "03/02/2026",
+        "endDate": "In corso",
+        "country": "Francia"
+      },
+      {
+        "projectKey": "11998",
+        "siteKey": "s_16",
+        "name": "DATA 4 MILAN S.p.A. Milano - DATA CENTER LOCALIZZATO NEI TERRITORI COMUNALI DI CORNAREDO E SETTIMO MILANESE - CITTA' METROLITANA DI MILANO per Campus Data Center MIL 01 lotti C e D",
+        "type": "Ampliamento",
+        "proposer": "DATA 4 MILAN S.P.A.",
+        "startDate": "03/02/2026",
+        "endDate": "In corso",
+        "country": "Francia"
+      },
+      {
+        "projectKey": "12028",
+        "siteKey": "s_16",
+        "name": "DATACENTER EDIFICIO A e EDIFICIO B RHO/PERO (MILANO) - inserimento pozzi e edificio trattamento acque.",
+        "type": "Trattamento acque",
+        "proposer": "AMAZON DATA SERVICES ITALY S.R.L.",
+        "startDate": "23/03/2026",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "Santa Corinna",
+    "projects": [
+      {
+        "projectKey": "9499",
+        "siteKey": "s_19",
+        "name": "Nuovo Data Center da realizzarsi in Frazione Santa Corinna nel Comune di Noviglio (Mi)",
+        "type": "Nuova costruzione",
+        "proposer": "Noviglio datacenters Mxp I S.r.l.",
+        "startDate": "12/12/2022",
+        "endDate": "04/02/2025",
+        "country": "Italia"
+      },
+      {
+        "projectKey": "11451",
+        "siteKey": "s_19",
+        "name": "Ampliamento del Nuovo Data Center di via XXV Aprile nella frazione di Santa Corinna a Noviglio (MI)",
+        "type": "Ampliamento",
+        "proposer": "Noviglio datacenters Mxp I S.r.l.",
+        "startDate": "02/12/2024",
+        "endDate": "In corso",
+        "country": "Italia"
+      }
+    ]
+  },
+  {
+    "site": "Bergamo",
+    "projects": [
+      {
+        "projectKey": "9607",
+        "siteKey": "s_03",
+        "name": "Progetto di ampliamento del polo tecnologico Aruba Spa costituito da Datacenter per la fornitura di servizi clouds come server e relativa installazione dei gruppi elettrogeni di emergenza, alimentati a gasolio, da realizzarsi in Comune di Ponte San Pietro (BG) in via San Clemente n.53",
+        "type": "Installazioni energetiche",
+        "proposer": "Aruba S.p.A.",
+        "startDate": "15/02/2023",
+        "endDate": "15/02/2023",
+        "country": "Italia"
+      },
+      {
+        "projectKey": "10345",
+        "siteKey": "s_03",
+        "name": "Istanza per l'avvio del procedimento di Valutazione di Impatto Ambientale ai sensi dell'art. 23 del D.Lgs. 152/2006 relativa al \"Progetto di ampliamento del polo tecnologico Aruba Spa costituito da Datacenter per la fornitura di servizi clouds come server e relativa installazione dei gruppi elettrogeni di emergenza, alimentati a gasolio, da realizzarsi in Comune di Ponte San Pietro (BG) in via San Clemente n.53\"",
+        "type": "Ampliamento",
+        "proposer": "Aruba S.p.A.",
+        "startDate": "03/11/2023",
+        "endDate": "14/03/2026",
+        "country": "Italia"
+      }
+    ]
+  },
+  {
+    "site": "MIL04",
+    "projects": [
+      {
+        "projectKey": "9885",
+        "siteKey": "s_12",
+        "name": "Datacenter MIL04, Pescheria Borromeo (MI)",
+        "type": "Nuova costruzione",
+        "proposer": "MICROSOFT 4825 ITALY S.R.L.",
+        "startDate": "05/06/2023",
+        "endDate": "04/07/2025",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "MXP Melegnano",
+    "projects": [
+      {
+        "projectKey": "10198",
+        "siteKey": "s_15",
+        "name": "Progetto di installazione di n.22 generatori con energia termica complessiva pari a 143 MW, presso il data center MXP2 Vantage Data Centers Europe - sito di Settimo Milanese (MI).",
+        "type": "Installazioni energetiche",
+        "proposer": "VDC MXP 21 S.r.l.",
+        "startDate": "09/08/2023",
+        "endDate": "27/06/2024",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "10199",
+        "siteKey": "s_15",
+        "name": "Progetto di installazione di n.22 generatori di emergenza presso il data center MXP1 Vantage Data Centers Europe - sito di Melegnano (MI).",
+        "type": "Installazioni energetiche",
+        "proposer": "VDC MXP 11 S.r.l.",
+        "startDate": "09/08/2023",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "10753",
+        "siteKey": "s_15",
+        "name": "Completamento del data center MXP1 e del sistema di alimentazione elettrica di emergenza - Melegnano (MI).",
+        "type": "Installazioni energetiche",
+        "proposer": "VDC MXP 11 S.r.l.",
+        "startDate": "14/03/2024",
+        "endDate": "08/10/2025",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "Melzo/Liscate",
+    "projects": [
+      {
+        "projectKey": "10758",
+        "siteKey": "s_10",
+        "name": "Progettazione nuovo Data Center Liscate",
+        "type": "Nuova costruzione",
+        "proposer": "INFRASTRUCTURE ITALIA LAND 6 S.r.l.",
+        "startDate": "15/03/2024",
+        "endDate": "05/08/2026",
+        "country": "Stati Uniti"
+      },
+      {
+        "projectKey": "11852",
+        "siteKey": "s_10",
+        "name": "Nuovo Data Center denominato MIL09 sito in comune di Melzo (MI).",
+        "type": "Nuova costruzione",
+        "proposer": "INFRASTRUCTURE ITALIA LAND 9 S.R.L.",
+        "startDate": "04/09/2025",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "Vellezzo Bellini",
+    "projects": [
+      {
+        "projectKey": "10766",
+        "siteKey": "s_21",
+        "name": "Progettazione nuovo Data Center Vellezzo Bellini.",
+        "type": "Nuova costruzione",
+        "proposer": "INFRASTRUCTURE ITALIA LAND 4 S.r.l.",
+        "startDate": "13/03/2024",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "Area ex-CISE",
+    "projects": [
+      {
+        "projectKey": "10977",
+        "siteKey": "s_02",
+        "name": "Installazione di gruppi elettrogeni di emergenza di potenza complessiva pari a 132 MWt - datacenter in Comune di Segrate nell'area ex-CISE.",
+        "type": "Installazioni energetiche",
+        "proposer": "Cyrusoneitaly I S.r.l.",
+        "startDate": "31/05/2024",
+        "endDate": "11/02/2026",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "Santo Stefano",
+    "projects": [
+      {
+        "projectKey": "11218",
+        "siteKey": "s_24",
+        "name": "Ampliamento data center Noovle SpA",
+        "type": "Ampliamento",
+        "proposer": "Noovle SpA",
+        "startDate": "13/08/2024",
+        "endDate": "In corso",
+        "country": "Italia"
+      }
+    ]
+  },
+  {
+    "site": "Amazon Rho/Pero",
+    "projects": [
+      {
+        "projectKey": "11344",
+        "siteKey": "s_01",
+        "name": "Progetto Datacenter edificio A e edificio B Rho/Pero (MI).",
+        "type": "Nuova costruzione",
+        "proposer": "AMAZON DATA SERVICES ITALY S.R.L.",
+        "startDate": "18/10/2024",
+        "endDate": "18/10/2024",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "MIL05",
+    "projects": [
+      {
+        "projectKey": "11494",
+        "siteKey": "s_13",
+        "name": "Realizzazione di un nuovo Data Center denominato \"MIL05\" ubicato nel comune di Vignate (MI)",
+        "type": "Nuova costruzione",
+        "proposer": "INFRASTRUCTURE ITALIA LAND 5 S.R.L.",
+        "startDate": "23/12/2024",
+        "endDate": "07/08/2026",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "Vimercate Torri Bianche",
+    "projects": [
+      {
+        "projectKey": "11497",
+        "siteKey": "s_23",
+        "name": "Definizione del livello di dettaglio degli elaborati progettuali ai fini del procedimento di VIA ai sensi dell'art.20 del D.Lgs. 152/2006 relativa al progetto \"Nuovo insediamento produttivo con funzione di Data Center nel comune di Vimercate (MB)\"",
+        "type": "Nuova costruzione",
+        "proposer": "Giambelli S.p.A.",
+        "startDate": "17/12/2024",
+        "endDate": "In corso",
+        "country": "Italia"
+      }
+    ]
+  },
+  {
+    "site": "Lacchiarella",
+    "projects": [
+      {
+        "projectKey": "11503",
+        "siteKey": "s_08",
+        "name": "Realizzazione di un nuovo Data Center ubicato nel comune di Lacchiarella - Installazione di generatori di emergenza di potenza termica superiore a 150 MWth (Pt=1.010 MW)",
+        "type": "Nuova costruzione",
+        "proposer": "APTO ITALIA S.R.L.",
+        "startDate": "24/12/2024",
+        "endDate": "In corso",
+        "country": "Regno Unito"
+      }
+    ]
+  },
+  {
+    "site": "Campus Siziano",
+    "projects": [
+      {
+        "projectKey": "11703",
+        "siteKey": "s_07",
+        "name": "Data Center Stack Campus Siziano (PV).",
+        "type": "Nuova costruzione",
+        "proposer": "Infrastructure Italia Land 2 S.r.l.",
+        "startDate": "25/11/2025",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "Rozzano",
+    "projects": [
+      {
+        "projectKey": "11715",
+        "siteKey": "s_18",
+        "name": "Ampliamento del datacenter Noovle di Rozzano (MI) - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 150 MWt (270 MWt).",
+        "type": "Installazioni energetiche",
+        "proposer": "Noovle SpA",
+        "startDate": "06/05/2025",
+        "endDate": "In corso",
+        "country": "Italia"
+      }
+    ]
+  },
+  {
+    "site": "LIN10",
+    "projects": [
+      {
+        "projectKey": "11803",
+        "siteKey": "s_09",
+        "name": "DATA CENTER LIN 10 TREVIGLIO sito in Via della Costa, 2, Treviglio (BG).",
+        "type": "Nuova costruzione",
+        "proposer": "SAVILLS I.M. SGR S.P.A.",
+        "startDate": "23/12/2025",
+        "endDate": "In corso",
+        "country": "Australia"
+      }
+    ]
+  },
+  {
+    "site": "Vimercate ex-IBM",
+    "projects": [
+      {
+        "projectKey": "11813",
+        "siteKey": "s_22",
+        "name": "Realizzazione di un campus tecnologico composto da tre edifici data center indipendenti e installazione di n.133 generatori per una potenza termica complessiva di circa 1.000 MWt da realizzare nel Comune di Vimercate (MB)",
+        "type": "Nuova costruzione",
+        "proposer": "KRYALOS SGR S.P.A.",
+        "startDate": "18/07/2025",
+        "endDate": "In corso",
+        "country": "Italia"
+      }
+    ]
+  },
+  {
+    "site": "Sedriano",
+    "projects": [
+      {
+        "projectKey": "11868",
+        "siteKey": "s_20",
+        "name": "Progetto per un nuovo data center nel comune di Sedriano (MI).",
+        "type": "Nuova costruzione",
+        "proposer": "MINERVA ITALY DC SPV S.R.L.",
+        "startDate": "16/09/2025",
+        "endDate": "In corso",
+        "country": "Italia"
+      }
+    ]
+  },
+  {
+    "site": "MXP Magenta",
+    "projects": [
+      {
+        "projectKey": "11951",
+        "siteKey": "s_14",
+        "name": "MXP MAGENTA - Campus ad uso Data Center sito nel comune di Magenta (MI)",
+        "type": "Nuova costruzione",
+        "proposer": "NAMIRA S.G.R.P.A.",
+        "startDate": "23/12/2025",
+        "endDate": "In corso",
+        "country": "Italia"
+      }
+    ]
+  },
+  {
+    "site": "Regione AWS",
+    "projects": [
+      {
+        "projectKey": "11970",
+        "siteKey": "s_17",
+        "name": "Regione AWS Europe (Milan) - Espansione - Datacenter Edificio A nel comune di Zibido San Giacomo (MI).",
+        "type": "Ampliamento",
+        "proposer": "AMAZON DATA SERVICES ITALY S.R.L.",
+        "startDate": "06/01/2026",
+        "endDate": "In corso",
+        "country": "Stati Uniti"
+      }
+    ]
+  },
+  {
+    "site": "Campus Data4",
+    "projects": [
+      {
+        "projectKey": "11520",
+        "siteKey": "s_06",
+        "name": "CAMPUS DATA4 (MIL02) Vittuone (MI).",
+        "type": "Nuova costruzione",
+        "proposer": "DATA 4 LOMBARDIA S.P.A.",
+        "startDate": "20/12/2024",
+        "endDate": "In corso",
+        "country": "Francia"
+      }
+    ]
+  }
+]
