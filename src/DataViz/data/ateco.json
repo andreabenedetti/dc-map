@@ -1,50 +1,97 @@
-[
+﻿[
   {
-    "ateco": "-",
-    "count": 4
+    "date": 1976,
+    "group": "Patrimonio immobiliare",
+    "count": 1
   },
   {
-    "ateco": "Altre attivita' dei servizi connessi alle tecnologie dell'informazione e dell'informatica n.c.a.",
+    "date": 1987,
+    "group": "Commercio IT",
+    "count": 1
+  },
+  {
+    "date": 1994,
+    "group": "Servizi IT",
+    "count": 1
+  },
+  {
+    "date": 2006,
+    "group": "Fondi di investimento",
+    "count": 1
+  },
+  {
+    "date": 2007,
+    "group": "Fondi di investimento",
+    "count": 2
+  },
+  {
+    "date": 2011,
+    "group": "Consulenza IT",
+    "count": 1
+  },
+  {
+    "date": 2011,
+    "group": "Servizi IT",
+    "count": 1
+  },
+  {
+    "date": 2013,
+    "group": "Patrimonio immobiliare",
+    "count": 1
+  },
+  {
+    "date": 2015,
+    "group": "Servizi IT",
+    "count": 1
+  },
+  {
+    "date": 2020,
+    "group": "Consulenza IT",
+    "count": 1
+  },
+  {
+    "date": 2020,
+    "group": "Servizi IT",
+    "count": 1
+  },
+  {
+    "date": 2021,
+    "group": "Servizi IT",
     "count": 3
   },
   {
-    "ateco": "Attivita' di consulenza informatica",
+    "date": 2022,
+    "group": "Patrimonio immobiliare",
+    "count": 1
+  },
+  {
+    "date": 2022,
+    "group": "Servizi IT",
+    "count": 5
+  },
+  {
+    "date": 2023,
+    "group": "Patrimonio immobiliare",
+    "count": 1
+  },
+  {
+    "date": 2023,
+    "group": "Servizi IT",
     "count": 2
   },
   {
-    "ateco": "Attivita' di gestione di fondi",
-    "count": 1
-  },
-  {
-    "ateco": "Attivita' di gestione di strutture informatiche",
-    "count": 1
-  },
-  {
-    "ateco": "Commercio all'ingrosso di computer, unita' periferiche e software",
-    "count": 1
-  },
-  {
-    "ateco": "Compravendita di beni immobili effettuata su beni propri",
-    "count": 1
-  },
-  {
-    "ateco": "Costruzione di edifici residenziali e non residenziali",
+    "date": 2024,
+    "group": "Patrimonio immobiliare",
     "count": 2
   },
   {
-    "ateco": "Fornitura di infrastrutture informatiche, hosting e attivita' connesse",
-    "count": 11
-  },
-  {
-    "ateco": "Gestione di organismi di investimento collettivo del risparmio, fondi pensione e portafogli",
-    "count": 2
-  },
-  {
-    "ateco": "Gestione di progetti relativi a opere di ingegneria integrata",
+    "date": 2025,
+    "group": "Patrimonio immobiliare",
     "count": 1
   },
   {
-    "ateco": "Sviluppo di progetti immobiliari",
-    "count": 3
+    "date": 2025,
+    "group": "Servizi IT",
+    "count": 1
   }
 ]
