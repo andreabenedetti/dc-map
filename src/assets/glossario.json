@@ -1,10 +1,90 @@
 [
   {
-    "term": "Hyperscale ",
-    "definition": "Lorem ipsum dolor sit amet"
+    "term": "Hyperscale",
+    "definition": "Data center di dimensioni molto grandi, progettati per aumentare rapidamente la propria capacità quando cresce la richiesta di servizi digitali."
   },
   {
     "term": "Colocation",
-    "definition": "Lorem ipsum dolor sit amet"
+    "definition": "Servizio con cui un’azienda ospita i propri server in un data center gestito da un’altra azienda, che fornisce spazio, elettricità, raffreddamento e sicurezza."
+  },
+  {
+    "term": "Codice Ateco",
+    "definition": "Codice usato per classificare l’attività economica di un’impresa, per esempio commercio, informatica o produzione industriale."
+  },
+  {
+    "term": "Acque industriali",
+    "definition": "Acque usate nei processi o negli impianti di un’attività industriale. Dopo l’uso possono essere trattate, riutilizzate o scaricate."
+  },
+  {
+    "term": "Cool spine",
+    "definition": "Termine spesso usato nelle Valutazioni di Impatto Ambientale. In un data center, si riferisce a uno spazio o corridoio centrale collegato alla distribuzione dell’aria fredda. Il significato preciso dipende da come è progettato l’edificio."
+  },
+  {
+    "term": "Adiabatico",
+    "definition": "Sistema di raffreddamento che usa l’evaporazione dell’acqua per abbassare la temperatura dell’aria, prima che questa raffreddi gli impianti."
+  },
+  {
+    "term": "VRV",
+    "definition": "Sistema di climatizzazione che regola la quantità di refrigerante inviata alle diverse aree, in base a quanto raffreddamento serve. VRV significa Variable Refrigerant Volume."
+  },
+  {
+    "term": "Dry cooling",
+    "definition": "Sistema che disperde il calore usando aria e ventilatori, senza ricorrere all’evaporazione dell’acqua."
+  },
+  {
+    "term": "Sito",
+    "definition": "In questa ricerca, il sito è l’area scelta per costruire o ospitare un impianto, con le sue caratteristiche e i suoi vincoli. Un sito può accogliere più progetti."
+  },
+  {
+    "term": "Destinazione d'uso",
+    "definition": "La funzione prevista per un edificio o un terreno, per esempio abitativa, commerciale o industriale."
+  },
+  {
+    "term": "Verifica di Impatto Ambientale",
+    "definition": "Procedura che valuta quali effetti un progetto potrebbe avere sull’ambiente, come su acqua, aria, suolo, piante e animali."
+  },
+  {
+    "term": "Verifica di Ottemperanza",
+    "definition": "Controllo che verifica se chi realizza un progetto ha rispettato le condizioni e le misure ambientali stabilite nelle autorizzazioni."
+  },
+  {
+    "term": "Nimby",
+    "definition": "Sigla inglese per Not In My Back Yard, cioè “non nel mio cortile”. Descrive l’opposizione a un progetto perché si trova vicino al luogo in cui si vive o si lavora."
+  },
+  {
+    "term": "Greenfield",
+    "definition": "Un progetto costruito da zero su un terreno libero, dove prima non c’era un edificio o un’attività da riutilizzare."
+  },
+  {
+    "term": "Brownfield",
+    "definition": "Un data center realizzato riqualificando un’area già costruita o usata in passato, come un ex sito industriale."
+  },
+  {
+    "term": "Acqua potabile",
+    "definition": "Acqua che può essere bevuta perché rispetta determinati requisiti di qualità."
+  },
+  {
+    "term": "Acque di condensa",
+    "definition": "Acqua che si forma quando il vapore nell’aria si raffredda e torna liquido, per esempio su una superficie fredda."
+  },
+  {
+    "term": "Acque piovane",
+    "definition": "Acqua che cade dalle nuvole sotto forma di pioggia; può essere raccolta e destinata a diversi usi."
+  },
+  {
+    "term": "Acque recuperate",
+    "definition": "Acque usate che, dopo un trattamento, vengono riutilizzate invece di essere scaricate."
+  },
+  {
+    "term": "Acque reflue",
+    "definition": "Acque che sono già state usate e contengono sostanze provenienti dalle attività umane."
+  },
+  {
+    "term": "Acque sotterranee",
+    "definition": "Acque che si trovano sotto la superficie terrestre, negli spazi tra i materiali del sottosuolo."
+  },
+  {
+    "term": "Acqua pubblica/di acquedotto",
+    "definition": "L’acquedotto è il sistema di opere e tubature che raccoglie, trasporta e distribuisce l’acqua pubblica."
   }
 ]
