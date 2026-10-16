@@ -45,6 +45,7 @@
   },
   {
     "site": "Bornasco",
+    "desc": "Nel comune di Bornasco (PV), dove vivono 2632 abitanti, Microsoft sta costruendo nuovi gruppi elettrogeni di emergenza. Un progetto è stato completato nel 2025, mentre un secondo è attualmente in corso.",
     "projects": [
       {
         "projectKey": "8791",
@@ -197,6 +198,7 @@
   },
   {
     "site": "Santa Corinna",
+    "desc": "A Santa Corinna, frazione di Noviglio (MI) nel 2025 si è conclusa la costruzione di un nuovo data center nel 2025. Con la conclusione della costruzione, nel 2024 è iniziato l'ampliamento di questo data center che è tuttora in corso.",
     "projects": [
       {
         "projectKey": "9499",
@@ -222,6 +224,7 @@
   },
   {
     "site": "Bergamo",
+    "desc": "Aruba Spa ha iniziato e concluso nel 2023 il progetto di ampliamento del suo data center a Bergamo. Il data center sorge sul fiume Brembo, oltre al quale si estende un'area industriale. Il data center, tuttavia, è nei pressi di un centro abitato.",
     "projects": [
       {
         "projectKey": "9607",
@@ -247,6 +250,7 @@
   },
   {
     "site": "MIL04",
+    "desc": "Nei pressi di Peschiera Borromeo (MI), Microsoft ha costruito un nuovo data center.",
     "projects": [
       {
         "projectKey": "9885",
@@ -262,6 +266,7 @@
   },
   {
     "site": "MXP Melegnano",
+    "desc": "A Melegnano, la società VDC ha costruito un nuovo data center nel 2025, a cui ha aggiunto generatori per garantire l'energia necessaria al suo funzionamento.",
     "projects": [
       {
         "projectKey": "10198",
