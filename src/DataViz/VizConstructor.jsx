@@ -2,6 +2,9 @@ import * as Plot from "@observablehq/plot";
 import { useEffect, useRef } from "react";
 import { Dialog } from "@base-ui/react/dialog";
 import { XIcon } from "@phosphor-icons/react";
+import { hierarchy, pack } from "d3-hierarchy";
+import { select } from "d3-selection";
+import { zoom } from "d3-zoom";
 
 const btn =
   "flex h-40 items-center justify-start gap-2 bg-white dark:bg-neutral-950 p-4 break-normal text-2xl/7 font-serif text-slate-600 dark:text-white select-none hover:not-data-disabled:bg-indigo-100 dark:hover:not-data-disabled:bg-indigo-800 active:not-data-disabled:bg-indigo-200 dark:active:not-data-disabled:bg-indigo-700 focus-visible:outline-2 focus-visible:-outline-offset-1 focus-visible:outline-indigo-950 dark:focus-visible:outline-white hover:cursor-pointer transition-all duration-200 text-center";

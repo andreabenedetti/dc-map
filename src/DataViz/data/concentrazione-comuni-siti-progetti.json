@@ -1,0 +1,787 @@
+{
+  "descrizione": "Gerarchia per la visualizzazione: comune > sito > singoli procedimenti/progetti VIA.",
+  "nota_coordinate": "La posizione geografica è quella del comune dal dataset concentrazione-comuni; non localizza puntualmente i singoli siti. Per Rho/Pero i record con comune Pero sono aggregati sotto la voce Rho/Pero del riepilogo.",
+  "totale_comuni": 23,
+  "totale_siti": 33,
+  "totale_progetti": 42,
+  "comuni": [
+    {
+      "comune": "Settimo Milanese",
+      "provincia": "MI",
+      "lat": 45.4754,
+      "lon": 9.0376,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 12,
+      "numero_siti": 9,
+      "siti": [
+        {
+          "id": "settimo-milanese-sito-01",
+          "sito": "Campus Data4 MIL01",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11512,
+              "proponente": "DATA 4 MILAN S.P.A.",
+              "gruppo": "Data4Group",
+              "tipologia": "Nuova costruzione",
+              "nome": "Progetto D4 Data Center MIL1 - Masterplan campus"
+            },
+            {
+              "id": 11997,
+              "proponente": "DATA 4 ITALY S.P.A.",
+              "gruppo": "Data4Group",
+              "tipologia": "Ampliamento",
+              "nome": "DATA 4 ITALY S.p.A. Milano - DATA CENTER LOCALIZZATO NEI TERRITORI COMUNALI DI CORNAREDO E SETTIMO MILANESE - CITTA' METROLITANA DI MILANO per Campus Data Center MIL 01 lotti A e B"
+            },
+            {
+              "id": 11998,
+              "proponente": "DATA 4 MILAN S.P.A.",
+              "gruppo": "Data4Group",
+              "tipologia": "Ampliamento",
+              "nome": "DATA 4 MILAN S.p.A. Milano - DATA CENTER LOCALIZZATO NEI TERRITORI COMUNALI DI CORNAREDO E SETTIMO MILANESE - CITTA' METROLITANA DI MILANO per Campus Data Center MIL 01 lotti C e D"
+            }
+          ]
+        },
+        {
+          "id": "settimo-milanese-sito-02",
+          "sito": "Data center A1 / WTR",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 9638,
+              "proponente": "MICROSOFT 4825 ITALY S.R.L.",
+              "gruppo": "Microsoft",
+              "tipologia": "Nuova costruzione",
+              "nome": "Progetto Datacenter A1 - WTR, Settimo Milanese (MI)"
+            }
+          ]
+        },
+        {
+          "id": "settimo-milanese-sito-03",
+          "sito": "Data center MIL03",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 10522,
+              "proponente": "MICROSOFT 4825 ITALY S.R.L.",
+              "gruppo": "Microsoft",
+              "tipologia": "Nuova costruzione",
+              "nome": "Progetto Data Center MIL03, Settimo Milanese (MI)."
+            }
+          ]
+        },
+        {
+          "id": "settimo-milanese-sito-04",
+          "sito": "Data center ML10–ML11",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11899,
+              "proponente": "Equinix Hyperscale 2 (ML10) Srl",
+              "gruppo": "Equinix",
+              "tipologia": "Nuova costruzione",
+              "nome": "Data Center ML10 e ML11 nel comune di Settimo Milanese (MI)"
+            }
+          ]
+        },
+        {
+          "id": "settimo-milanese-sito-05",
+          "sito": "Data center ML5–ML6",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11794,
+              "proponente": "Equinix Italia S.r.l.",
+              "gruppo": "Equinix",
+              "tipologia": "Nuova costruzione",
+              "nome": "Data Center ML5 e ML6 nel comune di Settimo Milanese (MI)."
+            }
+          ]
+        },
+        {
+          "id": "settimo-milanese-sito-06",
+          "sito": "Data center ML7–ML8",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11965,
+              "proponente": "EQUINIX HYPERSCALE 2 (ML7) S.R.L.",
+              "gruppo": "Equinix",
+              "tipologia": "Nuova costruzione",
+              "nome": "Data Center ML7-ML8 a Settimo Milanese (MI)"
+            }
+          ]
+        },
+        {
+          "id": "settimo-milanese-sito-07",
+          "sito": "Data center ML9",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 10745,
+              "proponente": "Equinix Hyperscale 2 (ML9) Srl",
+              "gruppo": "Equinix",
+              "tipologia": "Nuova costruzione",
+              "nome": "Progetto Data Center ML9 a Settimo Milanese (MI)."
+            }
+          ]
+        },
+        {
+          "id": "settimo-milanese-sito-08",
+          "sito": "Data center MXP2",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 10198,
+              "proponente": "VDC MXP 21 S.r.l.",
+              "gruppo": "Vantage Data Centers",
+              "tipologia": "Installazioni energetiche",
+              "nome": "Progetto di installazione di n.22 generatori con energia termica complessiva pari a 143 MW, presso il data center MXP2 Vantage Data Centers Europe - sito di Settimo Milanese (MI)."
+            }
+          ]
+        },
+        {
+          "id": "settimo-milanese-sito-09",
+          "sito": "Nuovo data center Equinix Settimo Milanese",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 8846,
+              "proponente": "Equinix Hyperscale 2 (ML7) Srl",
+              "gruppo": "Equinix",
+              "tipologia": "Nuova costruzione",
+              "nome": "Progetto Nuovo Data Center a Settimo Milanese (MI) per la fornitura di servizi clouds come server, risorse di archiviazione, database, rete, software, analisi e intelligence."
+            },
+            {
+              "id": 9241,
+              "proponente": "Equinix Hyperscale 2 (ML7) Srl",
+              "gruppo": "Equinix",
+              "tipologia": "Nuova costruzione",
+              "nome": "Istanza per l'avvio del procedimento di Verifica di assoggettabilità a VIA ai sensi dell'art.19 del D.Lgs.152/2006 relativa al progetto Nuovo Data Center a Settimo Milanese (MI)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Siziano",
+      "provincia": "PV",
+      "lat": 45.3285,
+      "lon": 9.2091,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 3,
+      "numero_siti": 3,
+      "siti": [
+        {
+          "id": "siziano-sito-01",
+          "sito": "Data center Supernap – via Marche 8",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 7938,
+              "proponente": "Supernap Italia spa",
+              "gruppo": "Supernap International",
+              "tipologia": "Ampliamento",
+              "nome": "Progetto di ampliamento del Data Center Supernap sito in via Marche 8 a Siziano di proprietà di Supernap Italia"
+            }
+          ]
+        },
+        {
+          "id": "siziano-sito-02",
+          "sito": "Stack Campus Siziano",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11703,
+              "proponente": "Infrastructure Italia Land 2 S.r.l.",
+              "gruppo": "Stack Infrastructure",
+              "tipologia": "Nuova costruzione",
+              "nome": "Data Center Stack Campus Siziano (PV)."
+            }
+          ]
+        },
+        {
+          "id": "siziano-sito-03",
+          "sito": "Stack EMEA MIL01 – via Marche 8",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11648,
+              "proponente": "Stack EMEA Italy S.r.l.",
+              "gruppo": "Stack Infrastructure",
+              "tipologia": "Ampliamento",
+              "nome": "Ampliamento Data Center Stack EMEA MIL01, via Marche 8 Siziano (PV)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Bornasco",
+      "provincia": "PV",
+      "lat": 45.2554,
+      "lon": 9.208,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 2,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "bornasco-sito-01",
+          "sito": "Data center Bornasco",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 8791,
+              "proponente": "MICROSOFT 4825 ITALY S.R.L.",
+              "gruppo": "Microsoft",
+              "tipologia": "Installazioni energetiche",
+              "nome": "Progetto per la realizzazione di un Datacenter in Comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 50 mwt"
+            },
+            {
+              "id": 10588,
+              "proponente": "MICROSOFT 4825 ITALY S.R.L.",
+              "gruppo": "Microsoft",
+              "tipologia": "Installazioni energetiche",
+              "nome": "Progetto per la realizzazione di un Datacenter in comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 150 MWt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Melegnano",
+      "provincia": "MI",
+      "lat": 45.3539,
+      "lon": 9.3092,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 2,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "melegnano-sito-01",
+          "sito": "Data center MXP1",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 10199,
+              "proponente": "VDC MXP 11 S.r.l.",
+              "gruppo": "Vantage Data Centers",
+              "tipologia": "Installazioni energetiche",
+              "nome": "Progetto di installazione di n.22 generatori di emergenza presso il data center MXP1 Vantage Data Centers Europe - sito di Melegnano (MI)."
+            },
+            {
+              "id": 10753,
+              "proponente": "VDC MXP 11 S.r.l.",
+              "gruppo": "Vantage Data Centers",
+              "tipologia": "Installazioni energetiche",
+              "nome": "Completamento del data center MXP1 e del sistema di alimentazione elettrica di emergenza - Melegnano (MI)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Noviglio",
+      "provincia": "MI",
+      "lat": 45.3367,
+      "lon": 9.0875,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 2,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "noviglio-sito-01",
+          "sito": "Data center Santa Corinna",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 9499,
+              "proponente": "Noviglio datacenters Mxp I S.r.l.",
+              "gruppo": "Impresa Bergamelli",
+              "tipologia": "Nuova costruzione",
+              "nome": "Nuovo Data Center da realizzarsi in Frazione Santa Corinna nel Comune di Noviglio (Mi)"
+            },
+            {
+              "id": 11451,
+              "proponente": "Noviglio datacenters Mxp I S.r.l.",
+              "gruppo": "Impresa Bergamelli",
+              "tipologia": "Ampliamento",
+              "nome": "Ampliamento del Nuovo Data Center di via XXV Aprile nella frazione di Santa Corinna a Noviglio (MI)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Rho/Pero",
+      "provincia": "MI",
+      "lat": 45.522,
+      "lon": 9.0675,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 2,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "rho-pero-sito-01",
+          "sito": "Data center Rho/Pero – edifici A e B",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11344,
+              "proponente": "AMAZON DATA SERVICES ITALY S.R.L.",
+              "gruppo": "Amazon",
+              "tipologia": "Nuova costruzione",
+              "nome": "Progetto Datacenter edificio A e edificio B Rho/Pero (MI)."
+            },
+            {
+              "id": 12028,
+              "proponente": "AMAZON DATA SERVICES ITALY S.R.L.",
+              "gruppo": "Amazon",
+              "tipologia": "Trattamento acque",
+              "nome": "DATACENTER EDIFICIO A e EDIFICIO B RHO/PERO (MILANO) - inserimento pozzi e edificio trattamento acque."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Ponte San Pietro",
+      "provincia": "BG",
+      "lat": 45.705,
+      "lon": 9.5897,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 2,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "ponte-san-pietro-sito-01",
+          "sito": "Polo tecnologico Aruba – via San Clemente 53",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 9607,
+              "proponente": "Aruba S.p.A.",
+              "gruppo": "Aruba",
+              "tipologia": "Installazioni energetiche",
+              "nome": "Progetto di ampliamento del polo tecnologico Aruba Spa costituito da Datacenter per la fornitura di servizi clouds come server e relativa installazione dei gruppi elettrogeni di emergenza, alimentati a gasolio, da realizzarsi in Comune di Ponte San Pietro (BG) in via San Clemente n.53"
+            },
+            {
+              "id": 10345,
+              "proponente": "Aruba S.p.A.",
+              "gruppo": "Aruba",
+              "tipologia": "Ampliamento",
+              "nome": "Istanza per l'avvio del procedimento di Valutazione di Impatto Ambientale ai sensi dell'art. 23 del D.Lgs. 152/2006 relativa al \"Progetto di ampliamento del polo tecnologico Aruba Spa costituito da Datacenter per la fornitura di servizi clouds come server e relativa installazione dei gruppi elettrogeni di emergenza, alimentati a gasolio, da realizzarsi in Comune di Ponte San Pietro (BG) in via San Clemente n.53\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Vimercate",
+      "provincia": "MB",
+      "lat": 45.6292,
+      "lon": 9.3584,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 2,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "vimercate-sito-01",
+          "sito": "Campus data center Vimercate",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11497,
+              "proponente": "Giambelli S.p.A.",
+              "gruppo": "Giambelli S.p.A.",
+              "tipologia": "Nuova costruzione",
+              "nome": "Definizione del livello di dettaglio degli elaborati progettuali ai fini del procedimento di VIA ai sensi dell'art.20 del D.Lgs. 152/2006 relativa al progetto \"Nuovo insediamento produttivo con funzione di Data Center nel comune di Vimercate (MB)\""
+            },
+            {
+              "id": 11813,
+              "proponente": "KRYALOS SGR S.P.A.",
+              "gruppo": "Kryalos",
+              "tipologia": "Nuova costruzione",
+              "nome": "Realizzazione di un campus tecnologico composto da tre edifici data center indipendenti e installazione di n.133 generatori per una potenza termica complessiva di circa 1.000 MWt da realizzare nel Comune di Vimercate (MB)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Lacchiarella",
+      "provincia": "MI",
+      "lat": 45.3372,
+      "lon": 9.1275,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "lacchiarella-sito-01",
+          "sito": "Nuovo data center Lacchiarella",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11503,
+              "proponente": "APTO ITALIA S.R.L.",
+              "gruppo": "Apto DC",
+              "tipologia": "Nuova costruzione",
+              "nome": "Realizzazione di un nuovo Data Center ubicato nel comune di Lacchiarella - Installazione di generatori di emergenza di potenza termica superiore a 150 MWth (Pt=1.010 MW)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Liscate",
+      "provincia": "MI",
+      "lat": 45.4894,
+      "lon": 9.4062,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "liscate-sito-01",
+          "sito": "Nuovo data center Liscate",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 10758,
+              "proponente": "INFRASTRUCTURE ITALIA LAND 6 S.r.l.",
+              "gruppo": "Stack Infrastructure",
+              "tipologia": "Nuova costruzione",
+              "nome": "Progettazione nuovo Data Center Liscate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Magenta",
+      "provincia": "MI",
+      "lat": 45.468,
+      "lon": 8.873,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "magenta-sito-01",
+          "sito": "Campus data center MXP Magenta",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11951,
+              "proponente": "NAMIRA S.G.R.P.A.",
+              "gruppo": "NAMIRA",
+              "tipologia": "Nuova costruzione",
+              "nome": "MXP MAGENTA - Campus ad uso Data Center sito nel comune di Magenta (MI)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Melzo",
+      "provincia": "MI",
+      "lat": 45.4956,
+      "lon": 9.411,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "melzo-sito-01",
+          "sito": "Data center MIL09 Melzo",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11852,
+              "proponente": "INFRASTRUCTURE ITALIA LAND 9 S.R.L.",
+              "gruppo": "Stack Infrastructure",
+              "tipologia": "Nuova costruzione",
+              "nome": "Nuovo Data Center denominato MIL09 sito in comune di Melzo (MI)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Peschiera Borromeo",
+      "provincia": "MI",
+      "lat": 45.4623,
+      "lon": 9.311,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "peschiera-borromeo-sito-01",
+          "sito": "Data center MIL04 Peschiera Borromeo",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 9885,
+              "proponente": "MICROSOFT 4825 ITALY S.R.L.",
+              "gruppo": "Microsoft",
+              "tipologia": "Nuova costruzione",
+              "nome": "Datacenter MIL04, Pescheria Borromeo (MI)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Rozzano",
+      "provincia": "MI",
+      "lat": 45.3818,
+      "lon": 9.1655,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "rozzano-sito-01",
+          "sito": "Data center Noovle Rozzano",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11715,
+              "proponente": "Noovle SpA",
+              "gruppo": "TIM",
+              "tipologia": "Installazioni energetiche",
+              "nome": "Ampliamento del datacenter Noovle di Rozzano (MI) - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 150 MWt (270 MWt)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Santo Stefano Ticino",
+      "provincia": "MI",
+      "lat": 45.4916,
+      "lon": 8.9072,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "santo-stefano-ticino-sito-01",
+          "sito": "Data center Noovle Santo Stefano Ticino",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11218,
+              "proponente": "Noovle SpA",
+              "gruppo": "TIM",
+              "tipologia": "Ampliamento",
+              "nome": "Ampliamento data center Noovle SpA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Sedriano",
+      "provincia": "MI",
+      "lat": 45.5023,
+      "lon": 8.9699,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "sedriano-sito-01",
+          "sito": "Nuovo data center Sedriano",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11868,
+              "proponente": "MINERVA ITALY DC SPV S.R.L.",
+              "gruppo": "Minerva Italy DC SPV",
+              "tipologia": "Nuova costruzione",
+              "nome": "Progetto per un nuovo data center nel comune di Sedriano (MI)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Segrate",
+      "provincia": "MI",
+      "lat": 45.485,
+      "lon": 9.2667,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "segrate-sito-01",
+          "sito": "Data center ex-CISE Segrate",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 10977,
+              "proponente": "Cyrusoneitaly I S.r.l.",
+              "gruppo": "CyrusOne",
+              "tipologia": "Installazioni energetiche",
+              "nome": "Installazione di gruppi elettrogeni di emergenza di potenza complessiva pari a 132 MWt - datacenter in Comune di Segrate nell'area ex-CISE."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Settala",
+      "provincia": "MI",
+      "lat": 45.429,
+      "lon": 9.3866,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "settala-sito-01",
+          "sito": "Data center Caleppio di Settala",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 7922,
+              "proponente": "Microsoft Srl",
+              "gruppo": "Microsoft",
+              "tipologia": "Nuova costruzione",
+              "nome": "Datacenter Italy Caleppio di Settala (MI)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Treviglio",
+      "provincia": "BG",
+      "lat": 45.5116,
+      "lon": 9.5665,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "treviglio-sito-01",
+          "sito": "Data center LIN10 Treviglio",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11803,
+              "proponente": "SAVILLS I.M. SGR S.P.A.",
+              "gruppo": "Savillis Investment Management",
+              "tipologia": "Nuova costruzione",
+              "nome": "DATA CENTER LIN 10 TREVIGLIO sito in Via della Costa, 2, Treviglio (BG)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Vellezzo Bellini",
+      "provincia": "PV",
+      "lat": 45.2758,
+      "lon": 9.1253,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "vellezzo-bellini-sito-01",
+          "sito": "Nuovo data center Vellezzo Bellini",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 10766,
+              "proponente": "INFRASTRUCTURE ITALIA LAND 4 S.r.l.",
+              "gruppo": "Stack Infrastructure",
+              "tipologia": "Nuova costruzione",
+              "nome": "Progettazione nuovo Data Center Vellezzo Bellini."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Vignate",
+      "provincia": "MI",
+      "lat": 45.5013,
+      "lon": 9.3706,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "vignate-sito-01",
+          "sito": "Data center MIL05 Vignate",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11494,
+              "proponente": "INFRASTRUCTURE ITALIA LAND 5 S.R.L.",
+              "gruppo": "Stack Infrastructure",
+              "tipologia": "Nuova costruzione",
+              "nome": "Realizzazione di un nuovo Data Center denominato \"MIL05\" ubicato nel comune di Vignate (MI)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Vittuone",
+      "provincia": "MI",
+      "lat": 45.4798,
+      "lon": 8.9613,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "vittuone-sito-01",
+          "sito": "Campus Data4 MIL02 Vittuone",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11520,
+              "proponente": "DATA 4 LOMBARDIA S.P.A.",
+              "gruppo": "Data4Group",
+              "tipologia": "Nuova costruzione",
+              "nome": "CAMPUS DATA4 (MIL02) Vittuone (MI)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comune": "Zibido San Giacomo",
+      "provincia": "MI",
+      "lat": 45.3645,
+      "lon": 9.1264,
+      "coordinate_riferimento": "coordinate aggregate del comune; non sono coordinate puntuali del sito",
+      "progetti": 1,
+      "numero_siti": 1,
+      "siti": [
+        {
+          "id": "zibido-san-giacomo-sito-01",
+          "sito": "Data center AWS Zibido San Giacomo",
+          "criterio_raggruppamento": "titolo, nome del campus/sito e località indicati nei record VIA",
+          "progetti": [
+            {
+              "id": 11970,
+              "proponente": "AMAZON DATA SERVICES ITALY S.R.L.",
+              "gruppo": "Amazon",
+              "tipologia": "Ampliamento",
+              "nome": "Regione AWS Europe (Milan) - Espansione - Datacenter Edificio A nel comune di Zibido San Giacomo (MI)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
