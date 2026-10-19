@@ -1,0 +1,254 @@
+[
+ {
+  "id": 11497,
+  "nome": "Definizione del livello di dettaglio degli elaborati progettuali ai fini del procedimento di VIA ai sensi dell'art.20 del D.Lgs. 152/2006 relativa al progetto \"Nuovo insediamento produttivo con funzione di Data Center nel comune di Vimercate (MB)\"",
+  "proponente": "Giambelli S.p.A.",
+  "iscrizione": 1976,
+  "avvio": 2024
+ },
+ {
+  "id": 7922,
+  "nome": "Datacenter Italy Caleppio di Settala (MI)",
+  "proponente": "Microsoft Srl",
+  "iscrizione": 1987,
+  "avvio": 2021
+ },
+ {
+  "id": 9607,
+  "nome": "Progetto di ampliamento del polo tecnologico Aruba Spa costituito da Datacenter per la fornitura di servizi clouds come server e relativa installazione dei gruppi elettrogeni di emergenza, alimentati a gasolio, da realizzarsi in Comune di Ponte San Pietro (BG) in via San Clemente n.53",
+  "proponente": "Aruba S.p.A.",
+  "iscrizione": 1994,
+  "avvio": 2023
+ },
+ {
+  "id": 10345,
+  "nome": "Istanza per l'avvio del procedimento di Valutazione di Impatto Ambientale ai sensi dell'art. 23 del D.Lgs. 152/2006 relativa al \"Progetto di ampliamento del polo tecnologico Aruba Spa costituito da Datacenter per la fornitura di servizi clouds come server e relativa installazione dei gruppi elettrogeni di emergenza, alimentati a gasolio, da realizzarsi in Comune di Ponte San Pietro (BG) in via San Clemente n.53\"",
+  "proponente": "Aruba S.p.A.",
+  "iscrizione": 1994,
+  "avvio": 2023
+ },
+ {
+  "id": 11813,
+  "nome": "Realizzazione di un campus tecnologico composto da tre edifici data center indipendenti e installazione di n.133 generatori per una potenza termica complessiva di circa 1.000 MWt da realizzare nel Comune di Vimercate (MB)",
+  "proponente": "KRYALOS SGR S.P.A.",
+  "iscrizione": 2006,
+  "avvio": 2025
+ },
+ {
+  "id": 11803,
+  "nome": "DATA CENTER LIN 10 TREVIGLIO sito in Via della Costa, 2, Treviglio (BG).",
+  "proponente": "SAVILLS I.M. SGR S.P.A.",
+  "iscrizione": 2007,
+  "avvio": 2025
+ },
+ {
+  "id": 11951,
+  "nome": "MXP MAGENTA - Campus ad uso Data Center sito nel comune di Magenta (MI)",
+  "proponente": "NAMIRA S.G.R.P.A.",
+  "iscrizione": 2007,
+  "avvio": 2025
+ },
+ {
+  "id": 11344,
+  "nome": "Progetto Datacenter edificio A e edificio B Rho/Pero (MI).",
+  "proponente": "AMAZON DATA SERVICES ITALY S.R.L.",
+  "iscrizione": 2011,
+  "avvio": 2024
+ },
+ {
+  "id": 11794,
+  "nome": "Data Center ML5 e ML6 nel comune di Settimo Milanese (MI).",
+  "proponente": "Equinix Italia S.r.l.",
+  "iscrizione": 2011,
+  "avvio": 2025
+ },
+ {
+  "id": 11970,
+  "nome": "Regione AWS Europe (Milan) - Espansione - Datacenter Edificio A nel comune di Zibido San Giacomo (MI).",
+  "proponente": "AMAZON DATA SERVICES ITALY S.R.L.",
+  "iscrizione": 2011,
+  "avvio": 2026
+ },
+ {
+  "id": 12028,
+  "nome": "DATACENTER EDIFICIO A e EDIFICIO B RHO/PERO (MILANO) - inserimento pozzi e edificio trattamento acque.",
+  "proponente": "AMAZON DATA SERVICES ITALY S.R.L.",
+  "iscrizione": 2011,
+  "avvio": 2026
+ },
+ {
+  "id": 11997,
+  "nome": "DATA 4 ITALY S.p.A. Milano - DATA CENTER LOCALIZZATO NEI TERRITORI COMUNALI DI CORNAREDO E SETTIMO MILANESE - CITTA' METROLITANA DI MILANO per Campus Data Center MIL 01 lotti A e B",
+  "proponente": "DATA 4 ITALY S.P.A.",
+  "iscrizione": 2013,
+  "avvio": 2026
+ },
+ {
+  "id": 11648,
+  "nome": "Ampliamento Data Center Stack EMEA MIL01, via Marche 8 Siziano (PV).",
+  "proponente": "Stack EMEA Italy S.r.l.",
+  "iscrizione": 2015,
+  "avvio": 2025
+ },
+ {
+  "id": 10198,
+  "nome": "Progetto di installazione di n.22 generatori con energia termica complessiva pari a 143 MW, presso il data center MXP2 Vantage Data Centers Europe - sito di Settimo Milanese (MI).",
+  "proponente": "VDC MXP 21 S.r.l.",
+  "iscrizione": 2021,
+  "avvio": 2023
+ },
+ {
+  "id": 10199,
+  "nome": "Progetto di installazione di n.22 generatori di emergenza presso il data center MXP1 Vantage Data Centers Europe - sito di Melegnano (MI).",
+  "proponente": "VDC MXP 11 S.r.l.",
+  "iscrizione": 2021,
+  "avvio": 2023
+ },
+ {
+  "id": 10753,
+  "nome": "Completamento del data center MXP1 e del sistema di alimentazione elettrica di emergenza - Melegnano (MI).",
+  "proponente": "VDC MXP 11 S.r.l.",
+  "iscrizione": 2021,
+  "avvio": 2024
+ },
+ {
+  "id": 11703,
+  "nome": "Data Center Stack Campus Siziano (PV).",
+  "proponente": "Infrastructure Italia Land 2 S.r.l.",
+  "iscrizione": 2021,
+  "avvio": 2025
+ },
+ {
+  "id": 8791,
+  "nome": "Progetto per la realizzazione di un Datacenter in Comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 50 mwt",
+  "proponente": "MICROSOFT 4825 ITALY S.R.L.",
+  "iscrizione": 2022,
+  "avvio": 2022
+ },
+ {
+  "id": 9499,
+  "nome": "Nuovo Data Center da realizzarsi in Frazione Santa Corinna nel Comune di Noviglio (Mi)",
+  "proponente": "Noviglio datacenters Mxp I S.r.l.",
+  "iscrizione": 2022,
+  "avvio": 2022
+ },
+ {
+  "id": 9638,
+  "nome": "Progetto Datacenter A1 - WTR, Settimo Milanese (MI)",
+  "proponente": "MICROSOFT 4825 ITALY S.R.L.",
+  "iscrizione": 2022,
+  "avvio": 2023
+ },
+ {
+  "id": 9885,
+  "nome": "Datacenter MIL04, Pescheria Borromeo (MI)",
+  "proponente": "MICROSOFT 4825 ITALY S.R.L.",
+  "iscrizione": 2022,
+  "avvio": 2023
+ },
+ {
+  "id": 10522,
+  "nome": "Progetto Data Center MIL03, Settimo Milanese (MI).",
+  "proponente": "MICROSOFT 4825 ITALY S.R.L.",
+  "iscrizione": 2022,
+  "avvio": 2024
+ },
+ {
+  "id": 10588,
+  "nome": "Progetto per la realizzazione di un Datacenter in comune di Bornasco - installazione di gruppi elettrogeni di emergenza di potenza complessiva superiore a 150 MWt.",
+  "proponente": "MICROSOFT 4825 ITALY S.R.L.",
+  "iscrizione": 2022,
+  "avvio": 2024
+ },
+ {
+  "id": 10745,
+  "nome": "Progetto Data Center ML9 a Settimo Milanese (MI).",
+  "proponente": "Equinix Hyperscale 2 (ML9) Srl",
+  "iscrizione": 2022,
+  "avvio": 2024
+ },
+ {
+  "id": 10758,
+  "nome": "Progettazione nuovo Data Center Liscate",
+  "proponente": "INFRASTRUCTURE ITALIA LAND 6 S.r.l.",
+  "iscrizione": 2022,
+  "avvio": 2024
+ },
+ {
+  "id": 10766,
+  "nome": "Progettazione nuovo Data Center Vellezzo Bellini.",
+  "proponente": "INFRASTRUCTURE ITALIA LAND 4 S.r.l.",
+  "iscrizione": 2022,
+  "avvio": 2024
+ },
+ {
+  "id": 11451,
+  "nome": "Ampliamento del Nuovo Data Center di via XXV Aprile nella frazione di Santa Corinna a Noviglio (MI)",
+  "proponente": "Noviglio datacenters Mxp I S.r.l.",
+  "iscrizione": 2022,
+  "avvio": 2024
+ },
+ {
+  "id": 11494,
+  "nome": "Realizzazione di un nuovo Data Center denominato \"MIL05\" ubicato nel comune di Vignate (MI)",
+  "proponente": "INFRASTRUCTURE ITALIA LAND 5 S.R.L.",
+  "iscrizione": 2022,
+  "avvio": 2024
+ },
+ {
+  "id": 10977,
+  "nome": "Installazione di gruppi elettrogeni di emergenza di potenza complessiva pari a 132 MWt - datacenter in Comune di Segrate nell'area ex-CISE.",
+  "proponente": "Cyrusoneitaly I S.r.l.",
+  "iscrizione": 2023,
+  "avvio": 2024
+ },
+ {
+  "id": 11520,
+  "nome": "CAMPUS DATA4 (MIL02) Vittuone (MI).",
+  "proponente": "DATA 4 LOMBARDIA S.P.A.",
+  "iscrizione": 2023,
+  "avvio": 2024
+ },
+ {
+  "id": 11852,
+  "nome": "Nuovo Data Center denominato MIL09 sito in comune di Melzo (MI).",
+  "proponente": "INFRASTRUCTURE ITALIA LAND 9 S.R.L.",
+  "iscrizione": 2023,
+  "avvio": 2025
+ },
+ {
+  "id": 11503,
+  "nome": "Realizzazione di un nuovo Data Center ubicato nel comune di Lacchiarella - Installazione di generatori di emergenza di potenza termica superiore a 150 MWth (Pt=1.010 MW)",
+  "proponente": "APTO ITALIA S.R.L.",
+  "iscrizione": 2024,
+  "avvio": 2024
+ },
+ {
+  "id": 11512,
+  "nome": "Progetto D4 Data Center MIL1 - Masterplan campus",
+  "proponente": "DATA 4 MILAN S.P.A.",
+  "iscrizione": 2024,
+  "avvio": 2024
+ },
+ {
+  "id": 11998,
+  "nome": "DATA 4 MILAN S.p.A. Milano - DATA CENTER LOCALIZZATO NEI TERRITORI COMUNALI DI CORNAREDO E SETTIMO MILANESE - CITTA' METROLITANA DI MILANO per Campus Data Center MIL 01 lotti C e D",
+  "proponente": "DATA 4 MILAN S.P.A.",
+  "iscrizione": 2024,
+  "avvio": 2026
+ },
+ {
+  "id": 11868,
+  "nome": "Progetto per un nuovo data center nel comune di Sedriano (MI).",
+  "proponente": "MINERVA ITALY DC SPV S.R.L.",
+  "iscrizione": 2025,
+  "avvio": 2025
+ },
+ {
+  "id": 11899,
+  "nome": "Data Center ML10 e ML11 nel comune di Settimo Milanese (MI)",
+  "proponente": "Equinix Hyperscale 2 (ML10) Srl",
+  "iscrizione": 2025,
+  "avvio": 2025
+ }
+]

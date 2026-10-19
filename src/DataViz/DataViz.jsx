@@ -8,6 +8,7 @@ import periodo from "./data/start-end.json";
 import all from "./data/all.json";
 import compagnie from "./data/compagnie-anno.json";
 import ateco from "./data/ateco.json";
+import fondazione from "./data/fondazione-avvio.json";
 import raw from "./data/countries-value.geojson?raw";
 const countries = JSON.parse(raw);
 
@@ -17,6 +18,53 @@ const atecoDates = ateco.map(d => ({
   count: +d.count
 }));
 
+// ---------- Visualizzazione "fondazione impresa → avvio VIA" ----------
+const LOLLI = "oklch(51.1% 0.262 276.966)";
+const ORANGE = "rgb(255, 114, 92)";
+
+const LABEL_ISCRIZIONE = "Anno di iscrizione dell'impresa";
+const LABEL_AVVIO = "Anno di avvio della procedura VIA";
+
+// Layout delle etichette
+const MARGIN_LEFT = 300;
+const MAX_CHARS = 40;   // caratteri per riga (con MARGIN_LEFT 300)
+const LINE_H = 14;      // interlinea in px
+const GAP = 4;          // spazio tra azienda e nome progetto
+const ROW_PAD = 24;     // aria sopra/sotto ogni progetto
+const MARGIN_TOP = 40;
+const MARGIN_BOTTOM = 30;
+const TEXT_X = -MARGIN_LEFT + 8; // testo allineato a sinistra, vicino al bordo
+
+function wrap(text, max) {
+  const lines = [];
+  let cur = "";
+  for (const w of text.trim().split(/\s+/)) {
+    if (!cur) cur = w;
+    else if ((cur + " " + w).length <= max) cur += " " + w;
+    else { lines.push(cur); cur = w; }
+  }
+  if (cur) lines.push(cur);
+  return lines;
+}
+
+let cursor = MARGIN_TOP;
+const companyLabels = [];
+const projectLabels = [];
+const fondazioneRows = fondazione.map(d => {
+  const cl = wrap(d.proponente, MAX_CHARS);
+  const pl = wrap(d.nome, MAX_CHARS);
+  const blockH = (cl.length + pl.length) * LINE_H + GAP;
+  const rowH = blockH + ROW_PAD;
+  const yc = cursor + rowH / 2;
+  const top = yc - blockH / 2;
+  cl.forEach((t, i) => companyLabels.push({ y: top + LINE_H * (i + 0.5), text: t }));
+  pl.forEach((t, i) => projectLabels.push({ y: top + LINE_H * (cl.length + i + 0.5) + GAP, text: t }));
+  cursor += rowH;
+  // yl: altezza della prima riga del nome azienda (dove sta il lollipop)
+  return { ...d, yc, yl: top + LINE_H * 0.5 };
+});
+const FONDAZIONE_HEIGHT = cursor + MARGIN_BOTTOM;
+// ----------------------------------------------------------------------
 
 export default function DataViz() {
   return (
@@ -108,6 +156,62 @@ export default function DataViz() {
             ]
           }}
           />
+        <VizConstructor
+          title="Quanto sono giovani le aziende che propongono i progetti?"
+          id="fondazione"
+          description="Per ogni progetto, la linea collega l'anno di iscrizione dell'impresa proponente all'anno di avvio della procedura di VIA. Alcune aziende esistono da decenni, altre sono state costituite poco prima di presentare il progetto. Sono mostrati i 36 progetti per cui abbiamo entrambi gli anni."
+            source="Camera di Commercio (Registro delle Imprese); Ministero dell'Ambiente e della Sicurezza Energetica (procedure di VIA); elaborazione degli autori."
+options={{
+            height: FONDAZIONE_HEIGHT,
+            marginLeft: MARGIN_LEFT,
+            marginTop: MARGIN_TOP,
+            marginBottom: MARGIN_BOTTOM,
+            x: { label: "Anno", axis: "top", grid: true, tickFormat: "d" },
+            y: { type: "identity", axis: null },
+            color: {
+              domain: [LABEL_ISCRIZIONE, LABEL_AVVIO],
+              range: [LOLLI, ORANGE],
+            },
+            symbol: {
+              legend: true,
+              domain: [LABEL_ISCRIZIONE, LABEL_AVVIO],
+              range: ["circle", "diamond2"],
+            },
+            marks: [
+              // Azienda: grassetto, colore lolli, allineata a sinistra
+              Plot.text(companyLabels, {
+                y: "y", text: "text",
+                frameAnchor: "left", textAnchor: "start", dx: TEXT_X,
+                fontSize: 11, fontWeight: "bold", fill: LOLLI,
+              }),
+              // Nome del progetto: corsivo, arancio, allineato a sinistra
+              Plot.text(projectLabels, {
+                y: "y", text: "text",
+                frameAnchor: "left", textAnchor: "start", dx: TEXT_X,
+                fontSize: 10, fontStyle: "italic", fill: ORANGE,
+              }),
+              // Linea di collegamento nera, sottile
+              Plot.link(fondazioneRows, {
+                x1: "iscrizione", x2: "avvio", y1: "yl", y2: "yl",
+                stroke: "#000", strokeWidth: 1,
+              }),
+              Plot.dot(fondazioneRows, {
+                x: "iscrizione", y: "yl",
+                symbol: () => LABEL_ISCRIZIONE,
+                fill: () => LABEL_ISCRIZIONE, r: 4,
+                tip: true,
+                title: d => `${d.proponente}\n${d.nome}\nIscrizione: ${d.iscrizione}`,
+              }),
+              Plot.dot(fondazioneRows, {
+                x: "avvio", y: "yl",
+                symbol: () => LABEL_AVVIO,
+                fill: () => LABEL_AVVIO, r: 5,
+                tip: true,
+                title: d => `${d.proponente}\n${d.nome}\nAvvio VIA: ${d.avvio}`,
+              }),
+            ],
+          }}
+        />
       </div>
     </div>
   );
