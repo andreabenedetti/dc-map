@@ -381,7 +381,7 @@ options={{
        <VizConstructor
   title="Chi c'è dietro le società che presentano i progetti?"
   id="veicolo"
-  description="Ogni punto è un progetto, raggruppato per gruppo di riferimento. La posizione indica da quanti anni esisteva l'impresa proponente quando è partita la procedura di VIA. Per 21 progetti su 36 l'impresa era stata costituita al massimo due anni prima (fascia evidenziata): spesso sono società create per un singolo sito. Altri 13 progetti fanno capo a imprese con almeno dieci anni di vita. Per 6 progetti manca l'anno di iscrizione."
+  description="Ogni riga rappresenta un gruppo societario; ogni punto, un progetto presentato da una società proponente associata a quel gruppo. La posizione indica l'età della società proponente, calcolata dagli anni trascorsi tra iscrizione al Registro delle Imprese (Camera del Lavoro) e avvio della procedura VIA: non indica l'età del gruppo internazionale. Per esempio, sotto Microsoft compaiono società proponenti iscritte in anni diversi. Nei 36 progetti con dato disponibile, 21 società proponenti erano iscritte da non più di due anni, 13 da almeno dieci e 2 da tre a nove anni. Per altri 6 progetti manca l'anno di iscrizione."
   source="Camera di Commercio (Registro delle Imprese); Ministero dell'Ambiente (procedure di VIA); elaborazione degli autori."
   options={{
     width: 760,
@@ -396,7 +396,8 @@ options={{
       grid: true,
       axis: "top",
       inset: 10,
-      label: "Anni di vita dell'impresa all'avvio della procedura di VIA →"
+      fontWeight: "bold",
+      label: "Età della società proponente (anni dall'iscrizione) all'avvio della VIA →"
     },
     fy: {
       domain: gruppiVeicoli,
@@ -410,16 +411,29 @@ options={{
         fill: "currentColor",
         fillOpacity: 0.06
       }),
+
+Plot.text(
+  [{ label: "Gruppo societario", gruppo: gruppiVeicoli[0] }],
+  {
+    fy: "gruppo",
+    frameAnchor: "top-left",
+    text: "label",
+    dx: -8,
+    dy: -42,
+    textAnchor: "end",
+    fontWeight: "bold",
+  }
+),
       Plot.dot(veicoli, Plot.dodgeY({
         x: "eta",
         fy: "gruppo",
-        fill: "#111111",
+        fill: "black",
         r: 5,
         anchor: "middle",
         padding: 1.5,
         tip: true,
         title: d =>
-          `${d.proponente}\nGruppo: ${d.gruppo}\nIscritta nel ${d.iscrizione}, VIA avviata nel ${d.avvio}\n(${d.eta} anni di vita)`
+          `Gruppo: ${d.gruppo}\nSocietà proponente: ${d.proponente}\nIscritta al Registro nel ${d.iscrizione}\nVIA avviata nel ${d.avvio}\nEtà della società all'avvio: ${d.eta} anni`
       }))
     ]
   }}
