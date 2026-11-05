@@ -23,8 +23,6 @@ function Sheet({ site, siteName, projects }) {
             <div>
               <h3 className="text-4xl mt-2 mb-2 font-serif">{siteName}</h3>
             </div>
-              <a href={site.link} target="_blank" className="flex items-center gap-1"><MapPinIcon/> Vedi sulla mappa</a>
-
           </div>
           <p>{site.desc}</p>
           <Accordion.Root className="w-full border-t border-slate-200 dark:border-b-slate-600 text-neutral-950 dark:text-olive-200 mt-8 font-sans">
