@@ -1,0 +1,222 @@
+[
+  {
+    "site": "Amazon Rho/Pero",
+    "category": "Acque recuperate",
+    "value": 1
+  },
+  {
+    "site": "Area ex-CISE",
+    "category": "Nessuna info",
+    "value": 1
+  },
+  {
+    "site": "Bergamo",
+    "category": "Nessuna info",
+    "value": 1
+  },
+  {
+    "site": "Bergamo",
+    "category": "Acque sotterranee",
+    "value": 1
+  },
+  {
+    "site": "Bergamo",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "Bornasco",
+    "category": "Nessuna info",
+    "value": 1
+  },
+  {
+    "site": "Bornasco",
+    "category": "Acque piovane",
+    "value": 1
+  },
+  {
+    "site": "Bornasco",
+    "category": "Acque recuperate",
+    "value": 1
+  },
+  {
+    "site": "Bornasco",
+    "category": "Acque sotterranee",
+    "value": 1
+  },
+  {
+    "site": "Bornasco",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "Caleppio",
+    "category": "Nessuna info",
+    "value": 1
+  },
+  {
+    "site": "Campus Siziano",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "Lacchiarella",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "LIN10",
+    "category": "Acque piovane",
+    "value": 1
+  },
+  {
+    "site": "LIN10",
+    "category": "Acque sotterranee",
+    "value": 1
+  },
+  {
+    "site": "LIN10",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "Melzo/Liscate",
+    "category": "Nessuna info",
+    "value": 1
+  },
+  {
+    "site": "Melzo/Liscate",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "MIL01 Siziano",
+    "category": "Nessuna info",
+    "value": 2
+  },
+  {
+    "site": "MIL04",
+    "category": "Acque piovane",
+    "value": 1
+  },
+  {
+    "site": "MIL04",
+    "category": "Acque recuperate",
+    "value": 1
+  },
+  {
+    "site": "MIL05",
+    "category": "Acque di condensa",
+    "value": 1
+  },
+  {
+    "site": "MIL05",
+    "category": "Acque piovane",
+    "value": 1
+  },
+  {
+    "site": "MIL05",
+    "category": "Acque reflue",
+    "value": 1
+  },
+  {
+    "site": "MIL05",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "MXP Magenta",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "MXP Melegnano",
+    "category": "Nessuna info",
+    "value": 3
+  },
+  {
+    "site": "Polo Settimo Milanese",
+    "category": "Nessuna info",
+    "value": 5
+  },
+  {
+    "site": "Polo Settimo Milanese",
+    "category": "Acqua potabile",
+    "value": 1
+  },
+  {
+    "site": "Polo Settimo Milanese",
+    "category": "Acque piovane",
+    "value": 2
+  },
+  {
+    "site": "Polo Settimo Milanese",
+    "category": "Acque recuperate",
+    "value": 1
+  },
+  {
+    "site": "Polo Settimo Milanese",
+    "category": "Acque sotterranee",
+    "value": 4
+  },
+  {
+    "site": "Polo Settimo Milanese",
+    "category": "Acqua pubblica",
+    "value": 5
+  },
+  {
+    "site": "Regione AWS",
+    "category": "Nessuna info",
+    "value": 1
+  },
+  {
+    "site": "Regione AWS",
+    "category": "Acque sotterranee",
+    "value": 1
+  },
+  {
+    "site": "Rozzano",
+    "category": "Nessuna info",
+    "value": 1
+  },
+  {
+    "site": "Santa Corinna",
+    "category": "Nessuna info",
+    "value": 1
+  },
+  {
+    "site": "Santa Corinna",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "Santo Stefano",
+    "category": "Acque sotterranee",
+    "value": 1
+  },
+  {
+    "site": "Santo Stefano",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "Sedriano",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "Vellezzo Bellini",
+    "category": "Acqua pubblica",
+    "value": 1
+  },
+  {
+    "site": "Vimercate ex-IBM",
+    "category": "Nessuna info",
+    "value": 1
+  },
+  {
+    "site": "Vimercate Torri Bianche",
+    "category": "Nessuna info",
+    "value": 1
+  }
+]

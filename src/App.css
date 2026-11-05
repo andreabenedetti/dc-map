@@ -50,6 +50,26 @@
 }
 
 a {
-    color: var(--color-blue-500);
+    color: var(--color-indigo-600);
     font-weight: var(--font-weight-bold);
+}
+
+.btn-lg {
+    @apply text-lg font-bold px-5 py-2 flex gap-1.5 items-center transition-colors duration-150;
+}
+
+.btn-lg:hover {
+    @apply bg-indigo-100;
+}
+
+.btn-primary {
+    @apply bg-blue-400 text-white;
+}
+
+.btn-inverse {
+    @apply  bg-white text-indigo-950;
+}
+
+.accordion-trigger {
+    @apply flex w-full items-center justify-between gap-4 bg-transparent px-3 py-2 text-left text-sm font-normal select-none hover:not-data-disabled:bg-indigo-100 focus-visible:relative focus-visible:z-1 focus-visible:outline-2 focus-visible:outline-mauve-950 transition-all hover:cursor-pointer
 }

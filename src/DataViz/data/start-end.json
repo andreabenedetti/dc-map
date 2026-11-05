@@ -1,0 +1,62 @@
+[
+  {
+    "startDate": 2021,
+    "endDate": 2023,
+    "count": 2
+  },
+  {
+    "startDate": 2022,
+    "endDate": 2025,
+    "count": 2
+  },
+  {
+    "startDate": 2022,
+    "endDate": 2026,
+    "count": 2
+  },
+  {
+    "startDate": 2023,
+    "endDate": 2023,
+    "count": 1
+  },
+  {
+    "startDate": 2023,
+    "endDate": 2024,
+    "count": 1
+  },
+  {
+    "startDate": 2023,
+    "endDate": 2025,
+    "count": 1
+  },
+  {
+    "startDate": 2023,
+    "endDate": 2026,
+    "count": 3
+  },
+  {
+    "startDate": 2024,
+    "endDate": 2024,
+    "count": 1
+  },
+  {
+    "startDate": 2024,
+    "endDate": 2025,
+    "count": 2
+  },
+  {
+    "startDate": 2024,
+    "endDate": 2026,
+    "count": 12
+  },
+  {
+    "startDate": 2025,
+    "endDate": 2026,
+    "count": 11
+  },
+  {
+    "startDate": 2026,
+    "endDate": 2026,
+    "count": 4
+  }
+]
