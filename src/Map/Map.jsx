@@ -104,8 +104,8 @@ function Map() {
 
   return (
     <>
-      <div className="container mx-auto my-10 px-4 sm:px-0 sm:max-w-4xl">
-        <h2 className="font-serif text-3xl">Mappa di tutti i progetti</h2>
+      <div className="section-container">
+        <h2 className="section-title">Mappa di tutti i progetti</h2>
         <p className="mb-8">Per capire la portata dei progetti dei nuovi data centers, occorre avere anche una visione d'insieme che permetta di fare una panoramica di tutti i progetti. Qui trovi una mappa che mostra tutte le aree interessate da progetti di data centers in Lombardia.</p>
       </div>
       <div id="map-container" ref={mapContainerRef} />

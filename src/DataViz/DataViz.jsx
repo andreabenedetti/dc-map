@@ -233,11 +233,11 @@ const annoMax = Math.max(...anniImpresa);
 
 export default function DataViz() {
   return (
-    <div className="container mx-auto my-10 px-4 sm:px-0 sm:max-w-4xl">
-      <h2 className="font-serif text-3xl">Analisi dei dati</h2>
+    <div className="section-container">
+      <h2 className="section-title">Analisi dei dati</h2>
       <p className="mb-8">A partire dai dati estrapolati dal monitoraggio e dai documenti pubblicati sul sito del Ministero, abbiamo creato alcuni grafici che riassumono alcune numeriche interessanti a capire che tipo di progetti sono attualmente in atto.</p>
       <p className="mb-8">Scegli una tematica per vedere i dettagli sui dati che abbiamo raccolto.</p>
-      <div id="visualizations" className="grid sm:grid-cols-2 grid-cols-1 gap-4">
+      <div id="visualizations" className="grid grid-cols-1">
         <VizConstructor
         title="Che tipo di progetti sono in cantiere nei siti interessati?"
         description="Non tutti i progetti sono uguali. Se la maggior parte dei progetti prevede la costruzione di nuovi data centers, in alcuni casi si tratta di ampliare strutture esistenti o di installare nuove infrastrutture che supportino il fabbisogno energetico."

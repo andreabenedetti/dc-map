@@ -6,9 +6,6 @@ import { hierarchy, pack } from "d3-hierarchy";
 import { select } from "d3-selection";
 import { zoom } from "d3-zoom";
 
-const btn =
-  "flex h-40 items-center justify-start gap-2 bg-white dark:bg-neutral-950 p-4 break-normal text-2xl/7 font-serif text-slate-600 dark:text-white select-none hover:not-data-disabled:bg-indigo-100 dark:hover:not-data-disabled:bg-indigo-800 active:not-data-disabled:bg-indigo-200 dark:active:not-data-disabled:bg-indigo-700 focus-visible:outline-2 focus-visible:-outline-offset-1 focus-visible:outline-indigo-950 dark:focus-visible:outline-white hover:cursor-pointer transition-all duration-200 text-center";
-
 function PlotView({ options }) {
   const ref = useRef(null);
 
@@ -24,7 +21,7 @@ function PlotView({ options }) {
 function VizConstructor({ title, description, options, id, source }) {
   return (
     <Dialog.Root>
-      <Dialog.Trigger className={btn}>{title}</Dialog.Trigger>
+      <Dialog.Trigger className={"btn-tile"}>{title}</Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Backdrop className="fixed inset-0 min-h-dvh bg-black opacity-50 transition-opacity duration-150 data-ending-style:opacity-0 data-starting-style:opacity-0 dark:opacity-50" />
         <Dialog.Popup className="fixed top-1/2 left-1/2 flex max-h-[calc(100dvh-3rem)] max-w-[calc(100vw-1rem)] max-sm:w-full -translate-x-1/2 -translate-y-1/2 flex-col gap-4 bg-white dark:bg-neutral-950 p-6 text-neutral-950 dark:text-white transition-[scale,opacity] duration-100 ease-out data-ending-style:scale-[0.98] data-ending-style:opacity-0 data-starting-style:scale-[0.98] data-starting-style:opacity-0">
@@ -39,7 +36,7 @@ function VizConstructor({ title, description, options, id, source }) {
             <PlotView id={id} options={options} />
           </div>
           {source && (
-            <p className="shrink-0 pt-3 border-t border-t-slate-200 text-sm text-slate-500 dark:text-slate-400">
+            <p className="shrink-0 pt-3 border-t border-t-blue-100 text-sm text-slate-600 dark:text-slate-400">
               <span className="font-semibold">Fonte dati:</span> {source}
             </p>
           )}

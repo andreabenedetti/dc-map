@@ -13,34 +13,34 @@ function MapTab({ data }) {
     <Tabs.Root defaultValue="list" className="w-full">
       <Tabs.List
         className={
-          "bg-indigo-950 w-full flex justify-center border-solid border-b-indigo-950 border-b text-sm sticky top-0 text-white"
+          "bg-indigo-50 w-full flex justify-center border-solid border-b-indigo-50 border-b text-lg sticky top-0 text-slate-800"
         }
       >
         <Tabs.Tab
           value="list"
-          className={"font-bold h-full px-5 py-3 hover:cursor-pointer"}
+          className={"font-serif h-full px-5 py-3 hover:cursor-pointer"}
         >
           Siti
         </Tabs.Tab>
         <Tabs.Tab
           value="map"
-          className={"font-bold h-full px-5 py-3 hover:cursor-pointer"}
+          className={"font-serif h-full px-5 py-3 hover:cursor-pointer"}
         >
           Mappa
         </Tabs.Tab>
         <Tabs.Tab
           value="data"
-          className={"font-bold h-full px-5 py-3 hover:cursor-pointer"}
+          className={"font-serif h-full px-5 py-3 hover:cursor-pointer"}
         >
           Dati
         </Tabs.Tab>
         <Tabs.Tab
           value="defs"
-          className={"font-bold h-full px-5 py-3 hover:cursor-pointer"}
+          className={"font-serif h-full px-5 py-3 hover:cursor-pointer"}
         >
           Glossario
         </Tabs.Tab>
-        <Tabs.Indicator className="absolute top-0 left-0 -z-1 h-full w-(--active-tab-width) translate-x-(--active-tab-left) border-b-indigo-200 border-b-4 transition-[translate,width] duration-150 ease-in-out" />
+        <Tabs.Indicator className="absolute top-0 left-0 -z-1 h-full w-(--active-tab-width) translate-x-(--active-tab-left) border-b-indigo-600 border-b-4 transition-[translate,width] duration-150 ease-in-out" />
       </Tabs.List>
       <Tabs.Panel value="map">
         <Map />
@@ -52,8 +52,8 @@ function MapTab({ data }) {
         <Sites data={data} />
       </Tabs.Panel>
       <Tabs.Panel value="defs">
-        <div className="container mx-auto px-4 sm:px-0 sm:max-w-4xl">
-          <h3 className="font-serif text-3xl mt-7 my-4">
+        <div className="section-container">
+          <h3 className="section-title">
             Glossario
           </h3>
           <p>

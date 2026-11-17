@@ -1,71 +1,42 @@
 import { Accordion } from "@base-ui/react";
 import { PlusIcon } from "@phosphor-icons/react/dist/ssr";
 import Zoom from "react-medium-image-zoom";
-import { MapPinIcon } from "@phosphor-icons/react";
-import { Button } from "@headlessui/react";
+import { ScrollArea } from "@base-ui/react";
 
 import "react-medium-image-zoom/dist/styles.css";
 
 function Sheet({ site, siteName, projects }) {
   return (
     <>
-      <div className="sm:flex gap-2 my-10 bg-white">
+      <div className="sm:flex gap-10 my-5">
         <Zoom>
           <img
-            src={`/sites-images/${projects[0].siteKey}.png`}
-            loading="lazy"
-            decoding="async"
-            className="w-50vw"
+          src={`/sites-images/${projects[0].siteKey}.png`}
+          loading="lazy"
+          decoding="async"
+          className={"grow"}
           />
         </Zoom>
-        <div className="w-full p-8">
+        <div className="w-full px-4 mt-2 sm:mt-0 sm:px-0 sm:w-xl">
           <div className="flex justify-between items-baseline">
             <div>
               <h3 className="text-4xl mt-2 mb-2 font-serif">{siteName}</h3>
             </div>
           </div>
           <p>{site.desc}</p>
-          <Accordion.Root className="w-full border-t border-slate-200 dark:border-b-slate-600 text-neutral-950 dark:text-olive-200 mt-8 font-sans">
-            <Accordion.Item className="border-b border-slate-200 dark:border-b-slate-600">
-              <Accordion.Header>
-                <Accordion.Trigger className="group accordion-trigger">
-                  <h4 className="font-serif text-lg font-semibold">
-                    {projects.length} Progetti
-                  </h4>
-                  <PlusIcon
-                    size={16}
-                    className="transition-transform duration-100 ease-[ease-out] group-data-panel-open:rotate-45"
-                  />
-                </Accordion.Trigger>
-              </Accordion.Header>
-              <Accordion.Panel className="h-(--accordion-panel-height) overflow-hidden text-sm transition-[height] duration-150 ease-[ease-out] data-ending-style:h-0 data-starting-style:h-0">
-                {projects.map((p) => (
-                  <div key={p.projectKey} className="px-3 py-2 mb-2">
-                    <p className="text-lg font-bold mb-4">{p.name}</p>
-                    <p className="mb-2"><a href={p.link} target="_blank">Vedi scheda</a></p>
-                    <p className="mb-2">
-                      Tipologia di progetto:{" "}
-                      <span className="p-1 px-2 bg-indigo-100 text-slate-600 rounded-2xl mr-1">
-                        {p.type}
-                      </span>
-                    </p>
-                    <p className="mb-2">
-                      Proponente:{" "}
-                      <span className="p-1 px-2 bg-indigo-100 text-slate-600 rounded-2xl mr-1">
-                        {p.proposer} ({p.country})
-                      </span>
-                    </p>
-                    <p className="mb-2">
-                      Periodo dei lavori:{" "}
-                      <span className="p-1 px-2 bg-indigo-100 text-slate-600 rounded-2xl mr-1">
-                        {p.startDate} → {p.endDate}
-                      </span>
-                    </p>
-                  </div>
-                ))}
-              </Accordion.Panel>
-            </Accordion.Item>
-          </Accordion.Root>
+          <h4 className="text-xl font-serif mt-4">Progetti</h4>
+          <ScrollArea.Root className="h-100 mt-2 min-w-100%  bg-white -z-10">       <ScrollArea.Viewport className="h-full border border-blue-100 focus-visible:outline-2 focus-visible:-outline-offset-1 focus-visible:outline-neutral-950 dark:focus-visible:outline-white">
+            <ScrollArea.Content className="flex flex-col gap-4 py-2 pr-5 pl-3 text-sm leading-[1.375rem]">
+              {projects.map((p) => (
+                <div key={p.projectKey}>
+                  <p className="text-base"><b>{p.type}</b> da parte di <b>{p.proposer}</b> ({p.country}). Progetto iniziato il <b>{p.startDate}</b>. <a href={p.link} target="_blank">Vedi scheda</a></p>
+                </div>
+              ))}
+            </ScrollArea.Content>
+          </ScrollArea.Viewport>
+          <ScrollArea.Scrollbar className="m-px flex w-2 justify-center bg-slate-400/12 dark:bg-white/12 opacity-0 transition-opacity pointer-events-none data-hovering:opacity-100 data-hovering:pointer-events-auto data-scrolling:opacity-100 data-scrolling:duration-0 data-scrolling:pointer-events-auto">
+            <ScrollArea.Thumb className="w-full bg-slate-400 dark:bg-white" /></ScrollArea.Scrollbar>
+          </ScrollArea.Root>
         </div>
       </div>
     </>

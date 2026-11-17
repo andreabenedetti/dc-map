@@ -54,20 +54,44 @@ a {
     font-weight: var(--font-weight-bold);
 }
 
+p {
+    @apply text-slate-800 text-base/relaxed;
+}
+
 .btn-lg {
     @apply text-lg font-bold px-5 py-2 flex gap-1.5 items-center transition-colors duration-150;
 }
 
-.btn-lg:hover {
-    @apply bg-indigo-100;
+.btn-primary {
+    @apply bg-indigo-800 text-white;
 }
 
-.btn-primary {
-    @apply bg-blue-400 text-white;
+.btn-primary:hover {
+    @apply bg-indigo-900
 }
 
 .btn-inverse {
     @apply  bg-white text-indigo-950;
+}
+
+.btn-outline {
+    @apply border-2 border-indigo-800 text-indigo-800;
+}
+
+.btn-outline:hover {
+    @apply bg-indigo-200 text-indigo-950 border-indigo-900;
+}
+
+.btn-tile {
+    @apply flex py-5 px-2 border-b border-b-blue-100 items-center justify-start gap-2 break-normal text-2xl/7 font-serif select-none hover:not-data-disabled:bg-indigo-100 dark:hover:not-data-disabled:bg-indigo-800 active:not-data-disabled:bg-indigo-200 dark:active:not-data-disabled:bg-indigo-700 focus-visible:outline-2 focus-visible:-outline-offset-1 focus-visible:outline-indigo-950 dark:focus-visible:outline-white hover:cursor-pointer transition-all duration-200 text-center
+}
+
+.section-container {
+    @apply container mx-auto my-20 px-4 sm:px-0 sm:max-w-4xl;
+}
+
+.section-title {
+    @apply font-serif text-5xl mb-5 text-slate-900;
 }
 
 .accordion-trigger {

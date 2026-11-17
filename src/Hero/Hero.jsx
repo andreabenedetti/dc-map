@@ -5,19 +5,19 @@ function Hero() {
   return (
     <div
       className={
-        "container mx-auto w-full sm:w-4xl px-4 sm:px-0 py-20 items-center justify-center space-y-3"
+        "container min-w-full px-4 sm:px-40 py-20 items-center justify-center space-y-3 bg-blue-50"
       }
     >
       <img src="img-2.png" className="w-70 h-auto max-w-full mx-auto" />
-      <p className={"font-serif text-2xl text-slate-600 text-center"}>
+      <h3 className={"font-serif text-2xl text-slate-800 text-center"}>
         Partecipa alla mappatura
-      </p>
-      <p className={"text-sans text-base text-slate-600 text-center"}>
+      </h3>
+      <p className={"text-sans text-base text-slate-800 text-center"}>
         Così come N.i.n.a. non è un'isola, ma un'infrastruttura a disposizione
         di chi lotta, questa mappatura è pensata per essere utilizzata da
         chiunque ne abbia bisogno.
       </p>
-      <p className={"text-sans text-base text-slate-600 text-center"}>
+      <p className={"text-sans text-base text-slate-800 text-center"}>
         Se fai parte di un collettivo ecologista, di un sindacato, di un
         gruppo di ricerca studentesco, o se sei semplicemente un cittadino o
         una cittadina che vuole opporsi a questa colonizzazione tecnologica

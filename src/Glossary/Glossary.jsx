@@ -21,7 +21,7 @@ function Glossary({ term, definition }) {
               </Accordion.Trigger>
             </Accordion.Header>
             <Accordion.Panel className="h-(--accordion-panel-height) overflow-hidden text-sm transition-[height] duration-150 ease-[ease-out] data-ending-style:h-0 data-starting-style:h-0">
-              <div className="px-3 py-2">{g.definition}</div>
+              <div className="px-3 py-2 text-base">{g.definition}</div>
             </Accordion.Panel>
           </Accordion.Item>
         ))}

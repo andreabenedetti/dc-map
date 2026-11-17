@@ -6,17 +6,17 @@ import MapTab from "./MapTab/MapTab";
 import InfoDrawer from "./InfoDrawer/InfoDrawer";
 import Hero from "./Hero/Hero";
 
-import { ArrowCircleUpRightIcon } from "@phosphor-icons/react";
+import { ArrowCircleUpRightIcon, DownloadIcon } from "@phosphor-icons/react";
 
 function App() {
   const data = [...list].sort((a, b) => (a.proposer > b.proposer ? 1 : -1));
 
   return (
     <>
-      <div className={"text-white bg-indigo-950 w-full pb-5 sm:h-2/3"}>
+      <div className={"text-indigo-800 bg-indigo-50 w-full pb-5 sm:h-2/3"}>
         <div className={"container mx-auto px-4 sm:px-0 py-4"}>
           <div className={"flex justify-between align-middle"}>
-            <p>NINA</p>
+            <a href="https://www.nina.watch/" target="_blank">NINA</a>
             <InfoDrawer />
           </div>
         </div>
@@ -30,13 +30,12 @@ function App() {
               "text-7xl sm:text-[10em] self-center mb-4 w-full intro-title"
             }
           >
-            Fortezze A.I.
+            Fortezze AI
           </h1>
           <h2 className={"w-full text-3xl sm:text-4xl font-serif text-balance"}>
-            La nuvola è fatta di terra: mappiamo l'infrastruttura
-            dei nuovi data center in Lombardia
+            Mappiamo l'infrastruttura dei nuovi data center in Lombardia
           </h2>
-          <a className="btn-lg btn-inverse mt-3.5" href="https://monitoraggiodatacenters.nina.watch/" target="_blank">Guarda il monitoraggio <ArrowCircleUpRightIcon /></a>
+          <div className={"gap-x-2 flex mt-2"}><a className="btn-lg btn-primary mt-3.5" href="https://monitoraggiodatacenters.nina.watch/" target="_blank">Guarda il monitoraggio <ArrowCircleUpRightIcon /></a> <a className="btn-lg btn-outline mt-3.5" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTEw5VRS7_TNNJdarLu9lNQx_sV2nHElORes8C73cBqAO4iB3n72gamngeiHJXe2AvQwzNv_J6dB-RC/pub?output=xlsx" target="_blank">Scarica i dati <DownloadIcon /></a></div>
         </div>
       </div>
       <MapTab data={sites} />
