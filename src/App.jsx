@@ -5,11 +5,8 @@ import Footer from "./Footer/Footer";
 import MapTab from "./MapTab/MapTab";
 import InfoDrawer from "./InfoDrawer/InfoDrawer";
 import Hero from "./Hero/Hero";
-import { CookieConsent } from "./CookieConsent/CookieConsent";
-import { trackPageView } from "./lib/analytics";
 
 import { ArrowCircleUpRightIcon, DownloadIcon } from "@phosphor-icons/react";
-import { Cookie } from "@phosphor-icons/react/dist/ssr";
 
 
 function App() {
@@ -45,7 +42,6 @@ function App() {
       <MapTab data={sites} />
       <Hero />
       <Footer />
-      <CookieConsent />
     </>
   );
 }
